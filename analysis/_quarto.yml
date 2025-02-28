@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: ../docs
+  render:
+    - "*.qmd"
+    - "!templates/"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    code-tools: true
+    df-print: paged
+
+execute:
+  freeze: auto
+  cache: true
+  
+jupyter: python3

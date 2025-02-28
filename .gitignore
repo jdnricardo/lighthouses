@@ -1,0 +1,43 @@
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.env
+venv/
+env/
+.venv/
+
+# Node/Web specific
+node_modules/
+.next/
+.cache/
+dist/
+build/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+
+# Quarto specific
+/.quarto/
+/_site/
+/_book/
+/_freeze/
+
+# Data
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep

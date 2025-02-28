@@ -1,0 +1,45 @@
+---
+title: "Lighthouses Data Analysis"
+format: html
+---
+
+## Project Overview
+
+This analysis explores the lighthouses dataset using both R and Python. The document demonstrates the integration of both languages in a single analysis workflow.
+
+## Setup
+
+First, let's load our primary packages:
+
+```{r}
+#| label: setup-r
+#| message: false
+
+library(tidyverse)
+library(reticulate)
+```
+
+```{python}
+#| label: setup-python
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+## Data Loading
+
+[Add your data loading code here once you have your dataset]
+
+## Initial Analysis
+
+[Begin your analysis here]
+
+## Next Steps
+
+1. Load and explore your dataset
+2. Perform initial data cleaning
+3. Create exploratory visualizations
+4. Develop insights
+5. Plan interactive visualizations for the web app

@@ -1,0 +1,33 @@
+{
+  "R": {
+    "Version": "4.3.0",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "tidyverse": {
+      "Package": "tidyverse",
+      "Version": "2.0.0",
+      "Source": "CRAN"
+    },
+    "reticulate": {
+      "Package": "reticulate",
+      "Version": "1.30.0",
+      "Source": "CRAN"
+    },
+    "plotly": {
+      "Package": "plotly",
+      "Version": "4.10.1",
+      "Source": "CRAN"
+    },
+    "rmarkdown": {
+      "Package": "rmarkdown",
+      "Version": "2.21",
+      "Source": "CRAN"
+    }
+  }
+}
