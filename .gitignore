@@ -15,16 +15,12 @@ venv/
 env/
 .venv/
 
-# Node/Web specific
-node_modules/
-.next/
-.cache/
-dist/
-build/
-
-# OS specific
+# Web specific
+web/dist/
+web/build/
 .DS_Store
-Thumbs.db
+*.log
+.cache/
 
 # IDE specific
 .vscode/
@@ -41,3 +37,13 @@ Thumbs.db
 !/data/raw/.gitkeep
 /data/processed/*
 !/data/processed/.gitkeep
+
+# New web visualization directory
+lighthouses/
+├── analysis/          # Quarto documents
+├── data/             # Raw and processed data
+├── docs/             # Documentation
+├── requirements/     # R and Python requirements
+└── web/             # New web visualization directory
+    ├── scripts/     # JavaScript files
+    └── styles/      # CSS files

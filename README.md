@@ -1,61 +1,63 @@
-# Lighthouses Data Analysis Project
+# Lighthouses of Britain
 
-This project combines data analysis (using R and Python via Quarto) with interactive web-based data visualization.
+An interactive visualization of historical British lighthouses, featuring a retro-digital interface inspired by maritime navigation systems.
 
-## Project Structure
+## Features
 
-```
-.
-├── analysis/          # Quarto documents for data analysis
-├── data/
-│   ├── raw/          # Original, immutable data
-│   └── processed/    # Cleaned and processed data
-├── src/              # Source code for web application (future)
-├── docs/             # Documentation
-└── requirements/      # Dependency management
-    ├── r/            # R package requirements
-    └── python/       # Python package requirements
-```
+- Interactive map of British lighthouses
+- Historical timeline navigation (1693-1911)
+- Detailed lighthouse profiles
+- Retro-digital aesthetic with nautical influences
 
-## Setup Instructions
+## Live Demo
 
-### 1. Environment Setup
+Visit [GitHub Pages URL] to see the project in action.
 
-#### Python Setup
-```bash
-# Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+## Local Development
 
-# Install dependencies
-pip install -r requirements/python/requirements.txt
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/[your-username]/lighthouses.git
+   cd lighthouses
+   ```
 
-#### R Setup
-```r
-# Install required R packages
-install.packages("renv")
-renv::restore()
-```
+2. Serve the files:
+   - Using Python:
+     ```bash
+     cd web
+     python -m http.server 8000
+     ```
+   - Using Node.js:
+     ```bash
+     npx http-server web
+     ```
+   - Using PHP:
+     ```bash
+     php -S localhost:8000 -t web
+     ```
 
-### 2. Quarto Setup
+3. Open `http://localhost:8000` in your browser
 
-Make sure you have [Quarto](https://quarto.org/docs/get-started/) installed on your system.
+## Data Sources
 
-### 3. Development Workflow
+- Lighthouse data: [TBD]
+- UK coastline: Natural Earth Data (simplified for development)
 
-1. Data Analysis:
-   - Work in the `analysis/` directory using Quarto documents
-   - Store raw data in `data/raw/`
-   - Save processed data in `data/processed/`
+## Dependencies
 
-2. Web Development (Future):
-   - Web application code will be developed in the `src/` directory
-   - More details to come as the project evolves
+All dependencies are loaded via CDN:
+- D3.js v7
+- Google Fonts (VT323, Special Elite)
 
-## Getting Started
+## Contributing
 
-1. Clone this repository
-2. Set up your Python and R environments as described above
-3. Open the Quarto project in RStudio or VS Code
-4. Begin your analysis in the `analysis/` directory
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Natural Earth Data for coastline data
+- Trinity House for historical lighthouse information

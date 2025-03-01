@@ -1,0 +1,361 @@
+:root {
+    /* Digital display colors */
+    --display-bg: #001220;
+    --display-text: #00ffff;
+    --display-glow: #00ffff40;
+    --display-text-dim: #80ffff;
+
+    /* Hardware colors */
+    --metal-dark: #404040;
+    --metal-mid: #606060;
+    --metal-light: #808080;
+    --metal-text: #ffffff;
+    --rivet-color: #909090;
+
+    /* Dimensions */
+    --control-panel-width: 300px;
+    --header-height: min(60px, 8vh);
+    --footer-height: min(40px, 5vh);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background: var(--metal-dark);
+    color: var(--display-text);
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+.header {
+    height: var(--header-height);
+    background: var(--metal-dark);
+    padding: min(10px, 1.5vh) min(20px, 2vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid var(--metal-mid);
+    background-image:
+        repeating-linear-gradient(45deg,
+            transparent,
+            transparent 2px,
+            rgba(255, 255, 255, 0.03) 2px,
+            rgba(255, 255, 255, 0.03) 4px),
+        linear-gradient(to bottom,
+            var(--metal-light),
+            var(--metal-mid));
+}
+
+.title {
+    font-size: clamp(1.5em, 4vw, 2em);
+    color: var(--display-text);
+    text-shadow: 0 0 10px var(--display-glow);
+    letter-spacing: 2px;
+}
+
+/* Main Layout */
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    position: relative;
+    min-height: 0;
+    /* Important for flex container */
+}
+
+/* Control Panel Styles */
+.control-panel {
+    position: absolute;
+    left: -260px;
+    top: 0;
+    bottom: 0;
+    width: var(--control-panel-width);
+    background: var(--metal-mid);
+    border-right: 4px solid var(--metal-dark);
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.3);
+    transition: left 0.3s ease;
+    z-index: 100;
+    background-image:
+        repeating-linear-gradient(45deg,
+            transparent,
+            transparent 2px,
+            rgba(255, 255, 255, 0.03) 2px,
+            rgba(255, 255, 255, 0.03) 4px),
+        linear-gradient(to bottom,
+            var(--metal-light),
+            var(--metal-mid));
+}
+
+.control-panel:hover {
+    left: 0;
+}
+
+.panel-tab {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    padding: 10px 5px;
+    background: var(--metal-mid);
+    border: 2px solid var(--metal-dark);
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    color: var(--display-text);
+    text-align: center;
+    cursor: pointer;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    background-image:
+        repeating-linear-gradient(45deg,
+            transparent,
+            transparent 2px,
+            rgba(255, 255, 255, 0.03) 2px,
+            rgba(255, 255, 255, 0.03) 4px),
+        linear-gradient(to right,
+            var(--metal-light),
+            var(--metal-mid));
+}
+
+.control-panel-content {
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.panel-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: var(--metal-dark);
+    border-radius: 8px;
+    position: relative;
+    background-image:
+        repeating-linear-gradient(-45deg,
+            transparent,
+            transparent 2px,
+            rgba(255, 255, 255, 0.02) 2px,
+            rgba(255, 255, 255, 0.02) 4px),
+        linear-gradient(to bottom,
+            var(--metal-mid),
+            var(--metal-dark));
+}
+
+/* Top rivets */
+.panel-section::before {
+    content: '';
+    position: absolute;
+    top: min(8px, 1vh);
+    left: min(8px, 1vw);
+    width: min(12px, 1.5vw);
+    height: min(12px, 1.5vw);
+    background: var(--rivet-color);
+    border-radius: 50%;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.panel-section::after {
+    content: '';
+    position: absolute;
+    top: min(8px, 1vh);
+    right: min(8px, 1vw);
+    width: min(12px, 1.5vw);
+    height: min(12px, 1.5vw);
+    background: var(--rivet-color);
+    border-radius: 50%;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Bottom rivets */
+.panel-section> :first-child::before {
+    content: '';
+    position: absolute;
+    bottom: min(8px, 1vh);
+    left: min(8px, 1vw);
+    width: min(12px, 1.5vw);
+    height: min(12px, 1.5vw);
+    background: var(--rivet-color);
+    border-radius: 50%;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.panel-section> :first-child::after {
+    content: '';
+    position: absolute;
+    bottom: min(8px, 1vh);
+    right: min(8px, 1vw);
+    width: min(12px, 1.5vw);
+    height: min(12px, 1.5vw);
+    background: var(--rivet-color);
+    border-radius: 50%;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.panel-heading {
+    font-family: 'Special Elite', cursive;
+    color: var(--metal-text);
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.control-button {
+    font-family: 'VT323', monospace;
+    background: var(--metal-mid);
+    color: var(--metal-text);
+    border: 2px solid var(--metal-light);
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.control-button:hover {
+    background: var(--metal-light);
+}
+
+.control-button.active {
+    background: var(--display-bg);
+    border-color: var(--display-text);
+    box-shadow: 0 0 10px var(--display-glow);
+    color: var(--display-text);
+}
+
+.time-slider {
+    width: 100%;
+    margin: 10px 0;
+    -webkit-appearance: none;
+    height: 20px;
+    background: var(--metal-mid);
+    border-radius: 10px;
+    border: 2px solid var(--metal-light);
+}
+
+.time-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background: var(--display-text);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--display-glow);
+}
+
+.year-display {
+    font-family: 'VT323', monospace;
+    color: var(--display-text);
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px var(--display-glow);
+}
+
+/* Main Container Styles */
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: var(--display-bg);
+    border: 4px solid var(--metal-dark);
+    margin: min(10px, 1.5vh);
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 0;
+}
+
+.main-display {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    padding: min(20px, 2vh);
+    min-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view {
+    display: none;
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+}
+
+.view.active {
+    display: flex;
+}
+
+#map-view {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+    overflow: hidden;
+}
+
+#map,
+#profile {
+    width: 100%;
+    height: 100%;
+    background: var(--display-bg);
+    min-height: 0;
+    aspect-ratio: 4/3;
+    max-height: calc(100vh - var(--header-height) - var(--footer-height) - 40px);
+}
+
+.coordinates,
+.stats {
+    position: absolute;
+    top: min(10px, 2vh);
+    right: min(10px, 2vw);
+    background: var(--display-bg);
+    padding: min(8px, 1vh) min(12px, 1.5vw);
+    border: 1px solid var(--display-text);
+    color: var(--display-text);
+    font-size: clamp(0.8em, 2.5vw, 1.2em);
+    z-index: 100;
+    white-space: nowrap;
+    min-width: max-content;
+    box-shadow: 0 0 10px var(--display-glow);
+    pointer-events: none;
+}
+
+/* Remove the rivet pseudo-elements */
+.coordinates::before,
+.stats::before,
+.coordinates::after,
+.stats::after {
+    display: none;
+}
+
+.footer {
+    height: var(--footer-height);
+    background: var(--metal-dark);
+    border-top: 4px solid var(--metal-mid);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 min(20px, 2vw);
+}
+
+.status {
+    font-size: clamp(0.8em, 3vw, 1.2em);
+    color: var(--display-text-dim);
+}
