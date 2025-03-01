@@ -60,4 +60,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Natural Earth Data for coastline data
-- Trinity House for historical lighthouse information
+- Buxton-Dunn, Oliver and Alvrez-Palau, Eduard and Bogart, Dan and Shaw-Taylor, Leigh (2020). Historical light aids to navigation 1514-1911. [Data Collection]. Colchester, Essex: UK Data Service. 10.5255/UKDA-SN-854172
