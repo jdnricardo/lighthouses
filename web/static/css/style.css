@@ -1,0 +1,321 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.pusher {
+    padding: 40px 20px 20px 20px;
+    transition: margin-left 0.5s ease;
+    width: 100%;
+}
+
+.pusher.dimmed {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+}
+
+#map-container {
+    min-height: 500px;
+    height: calc(100vh - 400px);
+    max-height: 67vh;
+    width: 100%;
+    max-width: 100%;
+    /* Ensure it doesn't overflow container */
+    margin: 20px 0;
+    position: relative;
+}
+
+.ui.table {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.ui.table td {
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.ui.sidebar {
+    width: 260px !important;
+}
+
+.highcharts-container {
+    width: 100% !important;
+}
+
+/* Ensure map fits container */
+.highcharts-root {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* First, hide all Highcharts buttons by default */
+.highcharts-button {
+    display: none !important;
+}
+
+/* Then specifically show map navigation buttons */
+.highcharts-map-navigation .highcharts-button {
+    display: block !important;
+    margin: 1px !important;
+    padding: 5px !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    border: 1px solid #ccc !important;
+    border-radius: 3px !important;
+}
+
+/* Position the map navigation container */
+.highcharts-map-navigation {
+    position: absolute !important;
+    left: 10px !important;
+    top: 10px !important;
+    z-index: 100 !important;
+}
+
+/* Specifically hide sparkline menu buttons */
+.sparkline-cell .highcharts-button,
+.sparkline-cell .highcharts-menu-item,
+td[data-sparkline] .highcharts-button,
+td[data-sparkline] .highcharts-menu-item {
+    display: none !important;
+}
+
+/* Ensure the button symbols are visible */
+.highcharts-map-navigation .highcharts-button text {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+td[data-sparkline] {
+    width: 120px;
+    height: 20px;
+}
+
+.lighthouse-table {
+    margin-top: 20px;
+    padding: 15px;
+    background: var(--metal-dark);
+    border-radius: 8px;
+}
+
+.lighthouse-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lighthouse-table th,
+.lighthouse-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid var(--display-text-dim);
+    vertical-align: middle;
+}
+
+.lighthouse-table th {
+    font-weight: bold;
+    color: var(--display-text);
+}
+
+/* Adjust sparkline containers to be more flexible */
+.sparkline-cell {
+    width: 75%;
+    min-width: 200px;
+    height: 30px;
+    padding: 5px;
+    background: transparent !important;
+}
+
+/* Ensure the Highcharts container fills the cell properly */
+.lighthouse-table td div {
+    width: 100% !important;
+    /* Fill the sparkline cell */
+    height: 30px !important;
+    margin: 0 auto;
+}
+
+/* Remove any unwanted menu buttons */
+.lighthouse-table .highcharts-menu-item {
+    display: none !important;
+}
+
+/* Hide any unwanted Highcharts elements */
+.highcharts-menu-item,
+.highcharts-button {
+    display: none !important;
+}
+
+/* Update the map navigation positioning */
+.highcharts-map-navigation {
+    position: absolute !important;
+    left: 10px !important;
+    /* Changed from right to left */
+    top: 10px !important;
+    /* Changed from bottom to top */
+    z-index: 100 !important;
+}
+
+/* Keep the existing button styling */
+.highcharts-map-navigation .highcharts-button:hover {
+    background: #fff !important;
+}
+
+#lighthouse-table {
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 0;
+    /* Remove top margin from table */
+    border-collapse: collapse;
+    /* Ensure no extra spacing between cells */
+    padding-top: 10px;
+    /* Added some padding at the top of the table */
+}
+
+#lighthouse-table th,
+#lighthouse-table td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle !important;
+    overflow: visible;
+}
+
+/* Style the location and year columns */
+#lighthouse-table td:nth-child(2),
+#lighthouse-table td:nth-child(3) {
+    font-family: monospace;
+    /* For better alignment of numbers */
+    white-space: nowrap;
+    /* Keep coordinates on one line */
+}
+
+/* Set specific column widths */
+#lighthouse-table th:nth-child(1),
+#lighthouse-table td:nth-child(1) {
+    width: 15%;
+}
+
+#lighthouse-table th:nth-child(2),
+#lighthouse-table td:nth-child(2) {
+    width: 15%;
+}
+
+#lighthouse-table th:nth-child(3),
+#lighthouse-table td:nth-child(3) {
+    width: 10%;
+}
+
+#lighthouse-table th:nth-child(4),
+#lighthouse-table td:nth-child(4),
+#lighthouse-table th:nth-child(5),
+#lighthouse-table td:nth-child(5) {
+    width: 30%;
+}
+
+/* Container adjustments */
+.ui.container {
+    width: 100% !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+}
+
+/* Adjust top menu */
+.ui.top.fixed.menu {
+    height: 40px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/* Add new rules to ensure buttons are visible */
+.highcharts-map-navigation {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1000 !important;
+}
+
+.highcharts-button {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1000 !important;
+}
+
+/* Ensure the button symbols are visible */
+.highcharts-button text {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Ensure navigation buttons are visible */
+.highcharts-map-navigation {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Ensure sparklines can receive hover events */
+td[data-sparkline] .highcharts-series-hover {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Allow sparkline hover effects */
+.sparkline-cell .highcharts-series,
+td[data-sparkline] .highcharts-series {
+    pointer-events: auto !important;
+}
+
+/* Disable map hover effects in non-debug mode */
+#map-container .highcharts-series {
+    pointer-events: var(--map-pointer-events, auto);
+}
+
+/* But keep the map navigation buttons interactive */
+.highcharts-map-navigation .highcharts-button {
+    pointer-events: auto !important;
+}
+
+/* Ensure sparkline containers are interactive */
+.sparkline-cell {
+    pointer-events: auto !important;
+}
+
+/* Hide menu buttons but keep sparkline interaction */
+.highcharts-menu-item {
+    display: none !important;
+}
+
+/* Keep map navigation buttons visible */
+.highcharts-map-navigation .highcharts-button {
+    display: block !important;
+    pointer-events: auto !important;
+}
+
+/* Ensure sparkline series are interactive */
+td[data-sparkline] .highcharts-series,
+.sparkline-cell .highcharts-series {
+    pointer-events: auto !important;
+}
+
+/* Ensure hover states are visible */
+td[data-sparkline] .highcharts-series-hover,
+.sparkline-cell .highcharts-series-hover {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Only disable hover for map when not in debug mode */
+#map-container .highcharts-series {
+    pointer-events: var(--map-pointer-events, auto);
+}
+
+/* Keep navigation buttons interactive */
+.highcharts-map-navigation .highcharts-button {
+    display: block !important;
+    pointer-events: auto !important;
+}
+
+/* Hide menu buttons */
+.highcharts-menu-item {
+    display: none !important;
+}

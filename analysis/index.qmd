@@ -14,9 +14,6 @@ First, let's load our primary packages:
 ```{r}
 #| label: setup-r
 #| message: false
-
-library(tidyverse)
-library(reticulate)
 ```
 
 ```{python}

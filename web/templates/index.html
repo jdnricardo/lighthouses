@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Lighthouses</title>
+
+    <!-- Fomantic UI -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
+
+    <!-- Core Highcharts first -->
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/map.js"></script>
+    <!-- Map data -->
+    <script src="https://code.highcharts.com/mapdata/custom/british-isles.js"></script>
+    <!-- Additional modules -->
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/marker-clusters.js"></script>
+    <!-- Sparklines last since they're for the table -->
+    <script src="https://code.highcharts.com/modules/sparkline.js"></script>
+
+    <!-- Proj4js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <!-- Add a toggle button in the top right -->
+    <div class="ui top fixed menu">
+        <div class="right menu">
+            <a class="item" id="sidebar-toggle">
+                <i class="sidebar icon"></i>
+                Menu
+            </a>
+        </div>
+    </div>
+
+    <div class="ui sidebar inverted vertical menu">
+        <div class="item">
+            <h2 class="ui header inverted">UK Lighthouses</h2>
+        </div>
+        <a class="item active">
+            <i class="map icon"></i>
+            Map View
+        </a>
+        <a class="item">
+            <i class="table icon"></i>
+            Data Table
+        </a>
+        <div class="item">
+            <div class="ui inverted accordion">
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Filters
+                </div>
+                <div class="content">
+                    <div class="ui form inverted">
+                        <div class="field">
+                            <label>Region</label>
+                            <select class="ui dropdown">
+                                <option value="">All Regions</option>
+                                <option value="scotland">Scotland</option>
+                                <option value="england">England</option>
+                                <option value="wales">Wales</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pusher">
+        <div class="ui container">
+            <div id="map-container"></div>
+            <table id="lighthouse-table">
+                <thead>
+                    <tr>
+                        <th>Lighthouse</th>
+                        <th>Location</th>
+                        <th>Year Built</th>
+                        <th>Visibility Range</th>
+                        <th>Number of Lights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+</body>
+
+</html>

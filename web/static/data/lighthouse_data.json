@@ -1,0 +1,5429 @@
+[
+  {
+    "Name": "Aberdovey",
+    "name": "Aberdovey",
+    "easting": 260904.2323,
+    "northing": 295847.7894,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AberystwithHarbour",
+    "name": "AberystwithHarbour",
+    "easting": 257750.5787,
+    "northing": 281655.996,
+    "yearBuilt": 1864,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "AlderneyHigh",
+    "name": "AlderneyHigh",
+    "easting": 388165.6869,
+    "northing": -18935.1352,
+    "yearBuilt": 1859,
+    "reach": [null, null, null, null, 9],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AlderneyLow",
+    "name": "AlderneyLow",
+    "easting": 388181.9371,
+    "northing": -18885.5888,
+    "yearBuilt": 1859,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AlexandraDock",
+    "name": "AlexandraDock",
+    "easting": 332214.7062,
+    "northing": 185270.8681,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AlumBay",
+    "name": "AlumBay",
+    "easting": 430409.2945,
+    "northing": 85645.1625,
+    "yearBuilt": 1888,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AmlwchPort",
+    "name": "AmlwchPort",
+    "easting": 245523.2337,
+    "northing": 393722.0735,
+    "yearBuilt": 1817,
+    "reach": [null, null, 8, 9, 9],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "AnvilPoint",
+    "name": "AnvilPoint",
+    "easting": 402834.7967,
+    "northing": 76976.8356,
+    "yearBuilt": 1881,
+    "reach": [null, null, null, null, 18],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Avon",
+    "name": "Avon",
+    "easting": 350441.604,
+    "northing": 178792.1848,
+    "yearBuilt": 1840,
+    "reach": [null, null, null, 13, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "Avon12",
+    "name": "Avon12",
+    "easting": 354804.0715,
+    "northing": 175227.6783,
+    "yearBuilt": 1905,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Avon19",
+    "name": "Avon19",
+    "easting": 355231.5745,
+    "northing": 175010.8184,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Avon20",
+    "name": "Avon20",
+    "easting": 356047.4399,
+    "northing": 174552.5241,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Avon7",
+    "name": "Avon7",
+    "easting": 350678.5654,
+    "northing": 177700.1096,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AvonChapelPill",
+    "name": "AvonChapelPill",
+    "easting": 353603.3573,
+    "northing": 176203.9117,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AvonHorseshoe",
+    "name": "AvonHorseshoe",
+    "easting": 353848.4569,
+    "northing": 176791.2099,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AvonHorseshoe2",
+    "name": "AvonHorseshoe2",
+    "easting": 354118.9168,
+    "northing": 176779.4199,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AvonHungRoad",
+    "name": "AvonHungRoad",
+    "easting": 353193.3114,
+    "northing": 175930.5322,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AvonPill",
+    "name": "AvonPill",
+    "easting": 352527.819,
+    "northing": 176135.1027,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AvonRriver",
+    "name": "AvonRriver",
+    "easting": 349411.0908,
+    "northing": 178491.3916,
+    "yearBuilt": 1880,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "AvonSeamills",
+    "name": "AvonSeamills",
+    "easting": 354826.862,
+    "northing": 175893.4038,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AvonSeamillsNorth",
+    "name": "AvonSeamillsNorth",
+    "easting": 354568.1758,
+    "northing": 176287.8372,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "AyrePoint",
+    "name": "AyrePoint",
+    "easting": 332967.7799,
+    "northing": 388457.2051,
+    "yearBuilt": 1811,
+    "reach": [null, null, 15, 10, 16],
+    "lights": [null, null, 1, 1, 2]
+  },
+  {
+    "Name": "Babbacombe",
+    "name": "Babbacombe",
+    "easting": 292978.7527,
+    "northing": 65580.892,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BahamaBank_LV",
+    "name": "BahamaBank_LV",
+    "easting": 255958.0532,
+    "northing": 494746.792,
+    "yearBuilt": 1848,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "Balsey_Beacon",
+    "name": "Balsey_Beacon",
+    "easting": 633483.006,
+    "northing": 238034.6783,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [1, null, null, null, null]
+  },
+  {
+    "Name": "Bamburgh",
+    "name": "Bamburgh",
+    "easting": 417371.3035,
+    "northing": 635931.561,
+    "yearBuilt": 1910,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Bardsey",
+    "name": "Bardsey",
+    "easting": 211055.8129,
+    "northing": 320627.6375,
+    "yearBuilt": 1821,
+    "reach": [null, null, 17, 17, 17],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "Barmouth",
+    "name": "Barmouth",
+    "easting": 261408.2512,
+    "northing": 315220.9502,
+    "yearBuilt": 1847,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BarrowChannel",
+    "name": "BarrowChannel",
+    "easting": 323408.9124,
+    "northing": 462517.4586,
+    "yearBuilt": 1902,
+    "reach": [null, null, null, null, 13],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Barrow_LV",
+    "name": "Barrow_LV",
+    "easting": 617828.3787,
+    "northing": 188212.2997,
+    "yearBuilt": 1908,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BarryDockBasinEntrance",
+    "name": "BarryDockBasinEntrance",
+    "easting": 312300.8963,
+    "northing": 167023.8195,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BarryEastBreakWater",
+    "name": "BarryEastBreakWater",
+    "easting": 312546.3987,
+    "northing": 166667.6765,
+    "yearBuilt": 1890,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BarryWestBreakWater",
+    "name": "BarryWestBreakWater",
+    "easting": 312431.4963,
+    "northing": 166593.9015,
+    "yearBuilt": 1890,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BeachyHead",
+    "name": "BeachyHead",
+    "easting": 558159.1426,
+    "northing": 95139.4535,
+    "yearBuilt": 1828,
+    "reach": [null, null, 23, 22, 16],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "Beaumaris",
+    "name": "Beaumaris",
+    "easting": 260599.2394,
+    "northing": 375861.0031,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Beer",
+    "name": "Beer",
+    "easting": 323196.7952,
+    "northing": 89188.0307,
+    "yearBuilt": 1892,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Belvedere",
+    "name": "Belvedere",
+    "easting": 362018.4675,
+    "northing": -49286.8826,
+    "yearBuilt": 1888,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BerryHead",
+    "name": "BerryHead",
+    "easting": 294572.4163,
+    "northing": 56640.5981,
+    "yearBuilt": 1906,
+    "reach": [null, null, null, null, 20],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Berwick",
+    "name": "Berwick",
+    "easting": 400993.3849,
+    "northing": 652373.0444,
+    "yearBuilt": 1826,
+    "reach": [null, null, 12, 11, 12],
+    "lights": [null, null, 2, 2, 2]
+  },
+  {
+    "Name": "Bideford",
+    "name": "Bideford",
+    "easting": 245555.1797,
+    "northing": 132717.7772,
+    "yearBuilt": 1820,
+    "reach": [null, null, 14, 14, 14],
+    "lights": [null, null, 2, 2, 3]
+  },
+  {
+    "Name": "BirkenheadNewFerry",
+    "name": "BirkenheadNewFerry",
+    "easting": 333811.5034,
+    "northing": 386133.886,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BirkenheadRockFerry",
+    "name": "BirkenheadRockFerry",
+    "easting": 333827.5255,
+    "northing": 386894.5646,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BirkenheadWallasay",
+    "name": "BirkenheadWallasay",
+    "easting": 332547.4393,
+    "northing": 390863.0727,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 3]
+  },
+  {
+    "Name": "BirkenheadWoodsideFerry",
+    "name": "BirkenheadWoodsideFerry",
+    "easting": 332977.3293,
+    "northing": 389284.1244,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 6]
+  },
+  {
+    "Name": "BishopRock",
+    "name": "BishopRock",
+    "easting": 80644.1416,
+    "northing": 6512.6436,
+    "yearBuilt": 1851,
+    "reach": [null, null, null, null, 18],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "BlackRock",
+    "name": "BlackRock",
+    "easting": 330784.2198,
+    "northing": 394720.3479,
+    "yearBuilt": 1830,
+    "reach": [null, null, 15, 14, 13],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "BlackScar",
+    "name": "BlackScar",
+    "easting": 341223.3738,
+    "northing": 457188.6064,
+    "yearBuilt": 1898,
+    "reach": [null, null, null, null, 2],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Blacknore",
+    "name": "Blacknore",
+    "easting": 344476.264,
+    "northing": 176553.7699,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BlackpoolCentralPier",
+    "name": "BlackpoolCentralPier",
+    "easting": 330189.7386,
+    "northing": 435482.3063,
+    "yearBuilt": 1899,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BlackpoolNorthPier",
+    "name": "BlackpoolNorthPier",
+    "easting": 330104.9752,
+    "northing": 436419.1007,
+    "yearBuilt": 1899,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BlackpoolVictoriaPier",
+    "name": "BlackpoolVictoriaPier",
+    "easting": 330136.0305,
+    "northing": 433791.7529,
+    "yearBuilt": 1890,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Blacktail_Beacon",
+    "name": "Blacktail_Beacon",
+    "easting": 605171.1682,
+    "northing": 192132.994,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [1, 1, null, null, null]
+  },
+  {
+    "Name": "Blakeney",
+    "name": "Blakeney",
+    "easting": 603163.1427,
+    "northing": 343630.111,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "Blyth",
+    "name": "Blyth",
+    "easting": 431916.5118,
+    "northing": 581362.5955,
+    "yearBuilt": 1788,
+    "reach": [null, null, 10, 11, 15],
+    "lights": [null, null, 1, 2, 2]
+  },
+  {
+    "Name": "BlythEastPier",
+    "name": "BlythEastPier",
+    "easting": 432565.6286,
+    "northing": 580347.502,
+    "yearBuilt": 1884,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 3]
+  },
+  {
+    "Name": "BlythSnook",
+    "name": "BlythSnook",
+    "easting": 432532.8694,
+    "northing": 580213.2867,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "BlythWestPier",
+    "name": "BlythWestPier",
+    "easting": 432738.1677,
+    "northing": 580354.1079,
+    "yearBuilt": 1888,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Bognor",
+    "name": "Bognor",
+    "easting": 493357.7118,
+    "northing": 98754.4412,
+    "yearBuilt": 1891,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Boscombe",
+    "name": "Boscombe",
+    "easting": 411091.1033,
+    "northing": 91038.1728,
+    "yearBuilt": 1905,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Boston",
+    "name": "Boston",
+    "easting": 539363.7595,
+    "northing": 339106.13,
+    "yearBuilt": 1868,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 3]
+  },
+  {
+    "Name": "Bournmouth",
+    "name": "Bournmouth",
+    "easting": 408860.2115,
+    "northing": 90531.1167,
+    "yearBuilt": 1901,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BradingEmbankment",
+    "name": "BradingEmbankment",
+    "easting": 464110.6446,
+    "northing": 89267.1927,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "BranSands",
+    "name": "BranSands",
+    "easting": 456302.9762,
+    "northing": 526953.618,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "Breaksea_LV",
+    "name": "Breaksea_LV",
+    "easting": 320946.4983,
+    "northing": 171571.8945,
+    "yearBuilt": 1866,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Bridgewater",
+    "name": "Bridgewater",
+    "easting": 350545.5818,
+    "northing": 383402.0491,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Bridlington",
+    "name": "Bridlington",
+    "easting": 518566.1288,
+    "northing": 466571.6005,
+    "yearBuilt": 1852,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Bridport",
+    "name": "Bridport",
+    "easting": 346124.1665,
+    "northing": 90071.6493,
+    "yearBuilt": 1890,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "BrightonMarinePalacePier",
+    "name": "BrightonMarinePalacePier",
+    "easting": 531222.4678,
+    "northing": 103420.0086,
+    "yearBuilt": 1824,
+    "reach": [null, null, 9, 10, null],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "BrightonWestPier",
+    "name": "BrightonWestPier",
+    "easting": 530173.0662,
+    "northing": 103861.4585,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BritonFerryBasin",
+    "name": "BritonFerryBasin",
+    "easting": 273608.8239,
+    "northing": 193774.7384,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BritonFerryDock",
+    "name": "BritonFerryDock",
+    "easting": 273210.9085,
+    "northing": 193552.2245,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Brixham",
+    "name": "Brixham",
+    "easting": 292509.0313,
+    "northing": 57331.9701,
+    "yearBuilt": 1839,
+    "reach": [null, null, null, 16, 5],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "Broadness",
+    "name": "Broadness",
+    "easting": 560462.6536,
+    "northing": 176777.9248,
+    "yearBuilt": 1885,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BrunswickDock",
+    "name": "BrunswickDock",
+    "easting": 334630.7765,
+    "northing": 388428.9602,
+    "yearBuilt": 1908,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "BullPoint",
+    "name": "BullPoint",
+    "easting": 246229.8186,
+    "northing": 146791.0048,
+    "yearBuilt": 1879,
+    "reach": [null, null, null, null, 18],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "BullSand_LV",
+    "name": "BullSand_LV",
+    "easting": 538783.9723,
+    "northing": 409383.3825,
+    "yearBuilt": 1832,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Burnham",
+    "name": "Burnham",
+    "easting": 329806.0148,
+    "northing": 150444.3737,
+    "yearBuilt": 1815,
+    "reach": [null, null, null, 16, 15],
+    "lights": [null, null, 1, 2, 2]
+  },
+  {
+    "Name": "BurryPort",
+    "name": "BurryPort",
+    "easting": 244380.0215,
+    "northing": 200021.1315,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 9],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "ButeWestDockBasin",
+    "name": "ButeWestDockBasin",
+    "easting": 319058.2698,
+    "northing": 174741.6858,
+    "yearBuilt": 1866,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Caister",
+    "name": "Caister",
+    "easting": 651956.9492,
+    "northing": 313965.3616,
+    "yearBuilt": 1873,
+    "reach": [null, null, null, null, 13],
+    "lights": [2, 2, null, null, 1]
+  },
+  {
+    "Name": "CaldyIsland",
+    "name": "CaldyIsland",
+    "easting": 214246.117,
+    "northing": 195987.4657,
+    "yearBuilt": 1829,
+    "reach": [null, null, 20, 19, 20],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "CalfofMan",
+    "name": "CalfofMan",
+    "easting": 219500.1843,
+    "northing": 469443.1846,
+    "yearBuilt": 1811,
+    "reach": [null, null, 24, null, null],
+    "lights": [null, null, 2, 1, null]
+  },
+  {
+    "Name": "CardiffLowWaterPier",
+    "name": "CardiffLowWaterPier",
+    "easting": 319147.1805,
+    "northing": 173507.7776,
+    "yearBuilt": 1821,
+    "reach": [null, null, null, 10, 10],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "CareSand_LV",
+    "name": "CareSand_LV",
+    "easting": 454431.2005,
+    "northing": 529986.3667,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "CargoFleet",
+    "name": "CargoFleet",
+    "easting": 451595.7292,
+    "northing": 520800.5348,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "CarlislePort",
+    "name": "CarlislePort",
+    "easting": 324170.2226,
+    "northing": 562418.4518,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "Carnarven",
+    "name": "Carnarven",
+    "easting": 247886.9372,
+    "northing": 363386.6337,
+    "yearBuilt": 1858,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 3]
+  },
+  {
+    "Name": "CarnarvonBay_LV",
+    "name": "CarnarvonBay_LV",
+    "easting": 219951.0821,
+    "northing": 357930.3052,
+    "yearBuilt": 1879,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Casquets",
+    "name": "Casquets",
+    "easting": 371169.332,
+    "northing": -20278.2467,
+    "yearBuilt": 1723,
+    "reach": [null, null, 13, 15, 17],
+    "lights": [null, 1, 3, 3, 1]
+  },
+  {
+    "Name": "CastlePill",
+    "name": "CastlePill",
+    "easting": 191279.0127,
+    "northing": 205426.9174,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 1],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "CastletownHarbour",
+    "name": "CastletownHarbour",
+    "easting": 226678.3221,
+    "northing": 467290.3144,
+    "yearBuilt": 1765,
+    "reach": [null, null, 5, 8, 5],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "ChannelGravingDock",
+    "name": "ChannelGravingDock",
+    "easting": 319355.7986,
+    "northing": 173986.2971,
+    "yearBuilt": 1908,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "ChapelAnjou",
+    "name": "ChapelAnjou",
+    "easting": 152373.3316,
+    "northing": 39955.4363,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "ChapelCarnBrea",
+    "name": "ChapelCarnBrea",
+    "easting": 138536.8651,
+    "northing": 28155.6183,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "ChathamBullsNose",
+    "name": "ChathamBullsNose",
+    "easting": 575363.5311,
+    "northing": 168163.6634,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "ChathamClockTower",
+    "name": "ChathamClockTower",
+    "easting": 575825.2577,
+    "northing": 169254.4284,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "ChathamSunPier",
+    "name": "ChathamSunPier",
+    "easting": 575355.9337,
+    "northing": 168175.9801,
+    "yearBuilt": 1904,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "ChickenRock",
+    "name": "ChickenRock",
+    "easting": 214836.5548,
+    "northing": 465562.2057,
+    "yearBuilt": 1875,
+    "reach": [null, null, null, null, 16],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "ClactonOnSea",
+    "name": "ClactonOnSea",
+    "easting": 617750.7767,
+    "northing": 214277.7852,
+    "yearBuilt": 1878,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "ClarenceEsplanadePier",
+    "name": "ClarenceEsplanadePier",
+    "easting": 463290.6904,
+    "northing": 98776.7256,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "ClarenceVictuallingYard",
+    "name": "ClarenceVictuallingYard",
+    "easting": 463392.0959,
+    "northing": 98913.1817,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Clayhole_LV",
+    "name": "Clayhole_LV",
+    "easting": 542446.2306,
+    "northing": 341731.6369,
+    "yearBuilt": 1891,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Clevedon",
+    "name": "Clevedon",
+    "easting": 339871.4839,
+    "northing": 172050.3945,
+    "yearBuilt": 1869,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Clovelly",
+    "name": "Clovelly",
+    "easting": 231802.6293,
+    "northing": 124947.779,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "CoastguardStation",
+    "name": "CoastguardStation",
+    "easting": 287830.3293,
+    "northing": 51388.6542,
+    "yearBuilt": 1900,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Cockle_LV",
+    "name": "Cockle_LV",
+    "easting": 652065.755,
+    "northing": 317782.6744,
+    "yearBuilt": 1843,
+    "reach": [null, null, null, 10, 10],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Coldharbour",
+    "name": "Coldharbour",
+    "easting": 551920.5496,
+    "northing": 178870.2953,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "ColwynBay",
+    "name": "ColwynBay",
+    "easting": 285249.9127,
+    "northing": 379364.8837,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Conway",
+    "name": "Conway",
+    "easting": 278120.6271,
+    "northing": 377795.1964,
+    "yearBuilt": 1904,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Coquet",
+    "name": "Coquet",
+    "easting": 429195.3546,
+    "northing": 604526.6111,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, 14, 14],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "CorbiereRock",
+    "name": "CorbiereRock",
+    "easting": 381764.0327,
+    "northing": -79977.563,
+    "yearBuilt": 1874,
+    "reach": [null, null, null, null, 17],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Cork_LV",
+    "name": "Cork_LV",
+    "easting": 630313.1289,
+    "northing": 231373.6112,
+    "yearBuilt": 1844,
+    "reach": [null, null, null, 10, 10],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Corton",
+    "name": "Corton",
+    "easting": 654333.5527,
+    "northing": 297454.4899,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "Corton_LV",
+    "name": "Corton_LV",
+    "easting": 659734.3511,
+    "northing": 298340.6946,
+    "yearBuilt": 1862,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Cowes",
+    "name": "Cowes",
+    "easting": 449643.5517,
+    "northing": 96674.1244,
+    "yearBuilt": 1901,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Craster",
+    "name": "Craster",
+    "easting": 425792.4771,
+    "northing": 620003.6541,
+    "yearBuilt": 1906,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "CremillShoal",
+    "name": "CremillShoal",
+    "easting": 245540.6199,
+    "northing": 53217.158,
+    "yearBuilt": 1902,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Cromer",
+    "name": "Cromer",
+    "easting": 622900.9626,
+    "northing": 341541.124,
+    "yearBuilt": 1719,
+    "reach": [null, null, 22, 22, 23],
+    "lights": [1, 1, 1, 1, 2]
+  },
+  {
+    "Name": "Crosby",
+    "name": "Crosby",
+    "easting": 329293.5793,
+    "northing": 402664.7467,
+    "yearBuilt": 1839,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "CrossSand_LV",
+    "name": "CrossSand_LV",
+    "easting": 664393.385,
+    "northing": 312234.115,
+    "yearBuilt": 1886,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Crossness",
+    "name": "Crossness",
+    "easting": 547434.2586,
+    "northing": 181511.9046,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Cullercoats",
+    "name": "Cullercoats",
+    "easting": 436451.2538,
+    "northing": 571618.6198,
+    "yearBuilt": 1896,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Dagenham",
+    "name": "Dagenham",
+    "easting": 549129.8524,
+    "northing": 181659.028,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Dartmouth",
+    "name": "Dartmouth",
+    "easting": 287671.5246,
+    "northing": 51393.5797,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "DartmouthHarbourRailway",
+    "name": "DartmouthHarbourRailway",
+    "easting": 288046.6177,
+    "northing": 51113.8005,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Dawlish",
+    "name": "Dawlish",
+    "easting": 296335.4365,
+    "northing": 76598.1029,
+    "yearBuilt": 1881,
+    "reach": [null, null, null, null, 1],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Deal",
+    "name": "Deal",
+    "easting": 637996.4599,
+    "northing": 152759.3726,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "DemieDePas",
+    "name": "DemieDePas",
+    "easting": 392525.9882,
+    "northing": -83329.4715,
+    "yearBuilt": 1904,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "DerbyHaven",
+    "name": "DerbyHaven",
+    "easting": 228767.9338,
+    "northing": 467678.1233,
+    "yearBuilt": 1650,
+    "reach": [null, null, 9, 11, 2],
+    "lights": [1, 1, 1, 1, 1]
+  },
+  {
+    "Name": "DinglePoint",
+    "name": "DinglePoint",
+    "easting": 335561.5523,
+    "northing": 387025.3208,
+    "yearBuilt": 1907,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "DittonBrook",
+    "name": "DittonBrook",
+    "easting": 349508.5912,
+    "northing": 383937.3743,
+    "yearBuilt": 1876,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "DouglasBayBatteryPier",
+    "name": "DouglasBayBatteryPier",
+    "easting": 238943.6908,
+    "northing": 475112.0792,
+    "yearBuilt": 1872,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "DouglasHarbour",
+    "name": "DouglasHarbour",
+    "easting": 238827.1864,
+    "northing": 475229.7315,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "DouglasHead",
+    "name": "DouglasHead",
+    "easting": 238945.3821,
+    "northing": 474763.4741,
+    "yearBuilt": 1832,
+    "reach": [null, null, null, null, 14],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "DouglasVictoriaPier",
+    "name": "DouglasVictoriaPier",
+    "easting": 238829.2345,
+    "northing": 475232.2212,
+    "yearBuilt": 1796,
+    "reach": [null, null, null, 10, 3],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Dover",
+    "name": "Dover",
+    "easting": 632478.4467,
+    "northing": 141907.0022,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "DoverAdmiraltyPier",
+    "name": "DoverAdmiraltyPier",
+    "easting": 632905.254,
+    "northing": 140001.4773,
+    "yearBuilt": 1849,
+    "reach": [null, null, null, 2, 14],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "DoverCastleJetty",
+    "name": "DoverCastleJetty",
+    "easting": 632718.3328,
+    "northing": 141555.8524,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "DoverDetachedMole",
+    "name": "DoverDetachedMole",
+    "easting": 633049.5835,
+    "northing": 140200.3729,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, 14],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "DoverGranvilleDock",
+    "name": "DoverGranvilleDock",
+    "easting": 631755.4725,
+    "northing": 140901.3307,
+    "yearBuilt": 1874,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "DoverNorthPier",
+    "name": "DoverNorthPier",
+    "easting": 632227.1661,
+    "northing": 140522.513,
+    "yearBuilt": 1842,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "DoverPrinceWalesPier",
+    "name": "DoverPrinceWalesPier",
+    "easting": 632550.0963,
+    "northing": 140290.8294,
+    "yearBuilt": 1902,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "DoverProminadePier",
+    "name": "DoverProminadePier",
+    "easting": 632591.0675,
+    "northing": 141211.2651,
+    "yearBuilt": 1893,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "DoverSouthPierHead",
+    "name": "DoverSouthPierHead",
+    "easting": 632066.8278,
+    "northing": 140339.2932,
+    "yearBuilt": 1822,
+    "reach": [null, null, 12, 12, null],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "Dudgeon_LV",
+    "name": "Dudgeon_LV",
+    "easting": 595675.0109,
+    "northing": 376599.8559,
+    "yearBuilt": 1736,
+    "reach": [null, null, 10, 10, 10],
+    "lights": [null, 1, 1, 1, 1]
+  },
+  {
+    "Name": "DumballIsland",
+    "name": "DumballIsland",
+    "easting": 350417.6963,
+    "northing": 178959.4592,
+    "yearBuilt": 1897,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Dungeness",
+    "name": "Dungeness",
+    "easting": 608731.2582,
+    "northing": 116958.8556,
+    "yearBuilt": 1722,
+    "reach": [null, null, 20, 14, 17],
+    "lights": [1, 1, 1, 1, 3]
+  },
+  {
+    "Name": "DungeonPoint",
+    "name": "DungeonPoint",
+    "easting": 344242.1657,
+    "northing": 381511.7961,
+    "yearBuilt": 1876,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "EastGoodwin_LV",
+    "name": "EastGoodwin_LV",
+    "easting": 648827.0832,
+    "northing": 151921.3526,
+    "yearBuilt": 1874,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "EastUsk",
+    "name": "EastUsk",
+    "easting": 334601.9473,
+    "northing": 182421.314,
+    "yearBuilt": 1893,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Eastbourn",
+    "name": "Eastbourn",
+    "easting": 561873.3569,
+    "northing": 98806.449,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 2],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Eastham",
+    "name": "Eastham",
+    "easting": 336661.8192,
+    "northing": 381351.6969,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Eddystone",
+    "name": "Eddystone",
+    "easting": 238100.0863,
+    "northing": 34055.1114,
+    "yearBuilt": 1709,
+    "reach": [null, null, 13, 13, 17],
+    "lights": [null, 1, 1, 1, 2]
+  },
+  {
+    "Name": "EdinburghChannel_LV",
+    "name": "EdinburghChannel_LV",
+    "easting": 626777.7998,
+    "northing": 184526.0414,
+    "yearBuilt": 1889,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "EgyptPoint",
+    "name": "EgyptPoint",
+    "easting": 448423.0713,
+    "northing": 96675.2158,
+    "yearBuilt": 1897,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "EnglishWelshGrounds_LV",
+    "name": "EnglishWelshGrounds_LV",
+    "easting": 329986.4386,
+    "northing": 170950.5427,
+    "yearBuilt": 1838,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Eston",
+    "name": "Eston",
+    "easting": 453013.4742,
+    "northing": 522072.3476,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Exmouth",
+    "name": "Exmouth",
+    "easting": 299289.0438,
+    "northing": 80703.271,
+    "yearBuilt": 1883,
+    "reach": [null, null, null, null, 8],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Fairlight",
+    "name": "Fairlight",
+    "easting": 587555.7849,
+    "northing": 111720.5946,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "FalmouthEastBreakWater",
+    "name": "FalmouthEastBreakWater",
+    "easting": 182208.1584,
+    "northing": 32929.4136,
+    "yearBuilt": 1860,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "FalmouthWestBreakWater",
+    "name": "FalmouthWestBreakWater",
+    "easting": 181914.7905,
+    "northing": 33068.5669,
+    "yearBuilt": 1860,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Farn",
+    "name": "Farn",
+    "easting": 421686.1509,
+    "northing": 635804.0018,
+    "yearBuilt": 1776,
+    "reach": [null, null, 14, 14, 15],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "FelixstoweProminadePier",
+    "name": "FelixstoweProminadePier",
+    "easting": 629899.6708,
+    "northing": 234167.3646,
+    "yearBuilt": 1905,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Felixstowe_Beacon",
+    "name": "Felixstowe_Beacon",
+    "easting": 630350.0181,
+    "northing": 234442.9035,
+    "yearBuilt": 1877,
+    "reach": [null, null, null, null, null],
+    "lights": [1, null, null, null, 4]
+  },
+  {
+    "Name": "Fifootspoint",
+    "name": "Fifootspoint",
+    "easting": 332909.1469,
+    "northing": 184278.4396,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, 4],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "FifthBuoy",
+    "name": "FifthBuoy",
+    "easting": 454972.6888,
+    "northing": 528277.3778,
+    "yearBuilt": 1839,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Filey",
+    "name": "Filey",
+    "easting": 512902.1481,
+    "northing": 481531.4322,
+    "yearBuilt": 1859,
+    "reach": [null, null, null, null, 1],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "FishguardBay",
+    "name": "FishguardBay",
+    "easting": 196190.861,
+    "northing": 239116.5817,
+    "yearBuilt": 1906,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Flamborough",
+    "name": "Flamborough",
+    "easting": 525308.4367,
+    "northing": 470658.9509,
+    "yearBuilt": 1806,
+    "reach": [null, null, 18, 19, 21],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "Flatholm",
+    "name": "Flatholm",
+    "easting": 322149.8247,
+    "northing": 164714.3173,
+    "yearBuilt": 1737,
+    "reach": [null, null, 17, 17, 18],
+    "lights": [null, 1, 1, 1, 1]
+  },
+  {
+    "Name": "Fleetwood",
+    "name": "Fleetwood",
+    "easting": 333849.8053,
+    "northing": 448298.5681,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, 13, 13],
+    "lights": [null, null, null, 2, 3]
+  },
+  {
+    "Name": "FolkestoneHarbour",
+    "name": "FolkestoneHarbour",
+    "easting": 623392.5355,
+    "northing": 135958.2508,
+    "yearBuilt": 1848,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "FolkestonePier",
+    "name": "FolkestonePier",
+    "easting": 623779.5758,
+    "northing": 135654.4151,
+    "yearBuilt": 1810,
+    "reach": [null, null, 6, 6, 12],
+    "lights": [null, null, 1, 1, 2]
+  },
+  {
+    "Name": "FolkestoneVictoriaPier",
+    "name": "FolkestoneVictoriaPier",
+    "easting": 622003.0616,
+    "northing": 135166.4081,
+    "yearBuilt": 1889,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Fowey1",
+    "name": "Fowey1",
+    "easting": 211108.9669,
+    "northing": 50538.56,
+    "yearBuilt": 1905,
+    "reach": [null, null, null, null, 15],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Fowey2",
+    "name": "Fowey2",
+    "easting": 212290.4345,
+    "northing": 51489.3314,
+    "yearBuilt": 1875,
+    "reach": [null, null, null, null, 8],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Galloper_LV",
+    "name": "Galloper_LV",
+    "easting": 652367.7677,
+    "northing": 202793.0282,
+    "yearBuilt": 1803,
+    "reach": [null, null, 10, 10, null],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "Garston",
+    "name": "Garston",
+    "easting": 339607.0039,
+    "northing": 383826.9184,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "GarthPoint",
+    "name": "GarthPoint",
+    "easting": 255782.4003,
+    "northing": 372061.8444,
+    "yearBuilt": 1896,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Girdler_LV",
+    "name": "Girdler_LV",
+    "easting": 616370.6116,
+    "northing": 180702.6171,
+    "yearBuilt": 1848,
+    "reach": [null, null, null, 10, 10],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Godrevy",
+    "name": "Godrevy",
+    "easting": 157591.7025,
+    "northing": 43647.9887,
+    "yearBuilt": 1859,
+    "reach": [null, null, null, null, 17],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "GoreyHill",
+    "name": "GoreyHill",
+    "easting": 398375.7314,
+    "northing": -78123.7048,
+    "yearBuilt": 1883,
+    "reach": [null, null, null, null, 8],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Gosport",
+    "name": "Gosport",
+    "easting": 462293.6358,
+    "northing": 100047.2229,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "GreatCastleHead",
+    "name": "GreatCastleHead",
+    "easting": 184638.5615,
+    "northing": 206043.073,
+    "yearBuilt": 1870,
+    "reach": [null, null, null, null, 16],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "GreatOrmesHead",
+    "name": "GreatOrmesHead",
+    "easting": 275586.4147,
+    "northing": 384487.0208,
+    "yearBuilt": 1862,
+    "reach": [null, null, null, null, 24],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "GreatYarmouth",
+    "name": "GreatYarmouth",
+    "easting": 652315.5387,
+    "northing": 308079.2728,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "GreatYarmouthBritannia",
+    "name": "GreatYarmouthBritannia",
+    "easting": 653248.8351,
+    "northing": 307767.8709,
+    "yearBuilt": 1873,
+    "reach": [null, null, null, null, 9],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "GreatYarmouthGorleston",
+    "name": "GreatYarmouthGorleston",
+    "easting": 652868.3205,
+    "northing": 303739.7788,
+    "yearBuilt": 1852,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 5]
+  },
+  {
+    "Name": "GreatYarmouthJetty",
+    "name": "GreatYarmouthJetty",
+    "easting": 653086.2386,
+    "northing": 307393.0515,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "GreatYarmouthWellington",
+    "name": "GreatYarmouthWellington",
+    "easting": 653158.7586,
+    "northing": 306760.8142,
+    "yearBuilt": 1905,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Grimsby",
+    "name": "Grimsby",
+    "easting": 527801.8888,
+    "northing": 411745.119,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Gull_LV",
+    "name": "Gull_LV",
+    "easting": 640597.0321,
+    "northing": 158352.3615,
+    "yearBuilt": 1809,
+    "reach": [null, null, 7, 7, 10],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "Gunfleet",
+    "name": "Gunfleet",
+    "easting": 631573.224,
+    "northing": 214331.5674,
+    "yearBuilt": 1850,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Gunfleet_LV",
+    "name": "Gunfleet_LV",
+    "easting": 631573.3947,
+    "northing": 214327.8623,
+    "yearBuilt": 1850,
+    "reach": [null, null, null, 10, null],
+    "lights": [null, null, null, 2, null]
+  },
+  {
+    "Name": "Haisborough",
+    "name": "Haisborough",
+    "easting": 638288.4856,
+    "northing": 330667.9422,
+    "yearBuilt": 1790,
+    "reach": [null, null, 17, 18, 17],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "Haisborough_LV",
+    "name": "Haisborough_LV",
+    "easting": 641618.6061,
+    "northing": 348308.105,
+    "yearBuilt": 1831,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, 1, 2, 1]
+  },
+  {
+    "Name": "HaleHead",
+    "name": "HaleHead",
+    "easting": 347106.7442,
+    "northing": 380943.6413,
+    "yearBuilt": 1907,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Hanois",
+    "name": "Hanois",
+    "easting": 349080.8899,
+    "northing": -51405.2192,
+    "yearBuilt": 1851,
+    "reach": [null, null, null, null, 16],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "HarringtonDock",
+    "name": "HarringtonDock",
+    "easting": 335102.4198,
+    "northing": 387481.8237,
+    "yearBuilt": 1893,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "HarringtonInnerPier",
+    "name": "HarringtonInnerPier",
+    "easting": 298749.0208,
+    "northing": 525271.7671,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HarringtonNorthPier",
+    "name": "HarringtonNorthPier",
+    "easting": 298599.8941,
+    "northing": 525348.6693,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HarringtonSouthPier",
+    "name": "HarringtonSouthPier",
+    "easting": 298532.8207,
+    "northing": 525310.3221,
+    "yearBuilt": 1797,
+    "reach": [null, null, 10, 11, null],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "HartlandPoint",
+    "name": "HartlandPoint",
+    "easting": 222914.3298,
+    "northing": 127828.7857,
+    "yearBuilt": 1874,
+    "reach": [null, null, null, null, 17],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Hartlepool_Beacon",
+    "name": "Hartlepool_Beacon",
+    "easting": 451851.6371,
+    "northing": 532980.7581,
+    "yearBuilt": 1855,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Hartlepool_CommissionersHarbour",
+    "name": "Hartlepool_CommissionersHarbour",
+    "easting": 451612.7354,
+    "northing": 533195.9021,
+    "yearBuilt": 1836,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Hartlepool_DockEntrance",
+    "name": "Hartlepool_DockEntrance",
+    "easting": 451702.0871,
+    "northing": 533138.5031,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Hartlepool_OldHarbour",
+    "name": "Hartlepool_OldHarbour",
+    "easting": 451909.2659,
+    "northing": 532997.6649,
+    "yearBuilt": 1836,
+    "reach": [null, null, null, 7, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "Hartlepool_WestHarbour",
+    "name": "Hartlepool_WestHarbour",
+    "easting": 451853.6874,
+    "northing": 532976.2194,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "Harwich",
+    "name": "Harwich",
+    "easting": 625992.8602,
+    "northing": 232484.6293,
+    "yearBuilt": 1818,
+    "reach": [null, null, 12, 12, null],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "HarwichDovercourt",
+    "name": "HarwichDovercourt",
+    "easting": 625147.7952,
+    "northing": 230868.3825,
+    "yearBuilt": 1863,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "HarwichGatehouse",
+    "name": "HarwichGatehouse",
+    "easting": 623952.9858,
+    "northing": 231189.444,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [2, 2, null, null, null]
+  },
+  {
+    "Name": "HarwichLandguard",
+    "name": "HarwichLandguard",
+    "easting": 628244.1724,
+    "northing": 231966.7895,
+    "yearBuilt": 1848,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, 1, 5]
+  },
+  {
+    "Name": "HastingsEastBreakwater",
+    "name": "HastingsEastBreakwater",
+    "easting": 582817.0989,
+    "northing": 109301.0801,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HastingsPierHead",
+    "name": "HastingsPierHead",
+    "easting": 581100.8736,
+    "northing": 108935.784,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 2],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HastingsWestBreakwater",
+    "name": "HastingsWestBreakwater",
+    "easting": 582511.9923,
+    "northing": 109195.7442,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HastingsWestHill",
+    "name": "HastingsWestHill",
+    "easting": 582007.1646,
+    "northing": 109572.056,
+    "yearBuilt": 1827,
+    "reach": [null, null, 9, null, 4],
+    "lights": [null, null, 2, 2, 2]
+  },
+  {
+    "Name": "HawsPoint",
+    "name": "HawsPoint",
+    "easting": 340706.3619,
+    "northing": 461617.4144,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Hayle",
+    "name": "Hayle",
+    "easting": 154829.498,
+    "northing": 37997.9901,
+    "yearBuilt": 1840,
+    "reach": [null, null, null, 6, 6],
+    "lights": [null, null, null, 2, 2]
+  },
+  {
+    "Name": "Hebbles_LV",
+    "name": "Hebbles_LV",
+    "easting": 515930.7407,
+    "northing": 427486.7514,
+    "yearBuilt": 1870,
+    "reach": [null, null, null, 5, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "Helwick_LV",
+    "name": "Helwick_LV",
+    "easting": 243253.7863,
+    "northing": 178122.1119,
+    "yearBuilt": 1846,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "HerdSand",
+    "name": "HerdSand",
+    "easting": 436824.3142,
+    "northing": 568294.6385,
+    "yearBuilt": 1882,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Hermitage",
+    "name": "Hermitage",
+    "easting": 390729.4915,
+    "northing": -80460.7304,
+    "yearBuilt": 1892,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HerneBay",
+    "name": "HerneBay",
+    "easting": 617188.2333,
+    "northing": 168553.7001,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Herne_Beacon",
+    "name": "Herne_Beacon",
+    "easting": 617595.8916,
+    "northing": 168519.964,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [1, 1, null, null, null]
+  },
+  {
+    "Name": "Heugh",
+    "name": "Heugh",
+    "easting": 453089.6732,
+    "northing": 533818.548,
+    "yearBuilt": 1847,
+    "reach": [null, null, null, 15, 15],
+    "lights": [null, null, null, 2, 2]
+  },
+  {
+    "Name": "Heysham",
+    "name": "Heysham",
+    "easting": 339549.3529,
+    "northing": 460125.1575,
+    "yearBuilt": 1904,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 4]
+  },
+  {
+    "Name": "Hodbarrow",
+    "name": "Hodbarrow",
+    "easting": 317910.5911,
+    "northing": 478319.4242,
+    "yearBuilt": 1905,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HolyheadBreakwater",
+    "name": "HolyheadBreakwater",
+    "easting": 225616.157,
+    "northing": 384780.9621,
+    "yearBuilt": 1820,
+    "reach": [null, null, 10, null, null],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "HolyheadInnerHarbour",
+    "name": "HolyheadInnerHarbour",
+    "easting": 225160.2013,
+    "northing": 382775.6174,
+    "yearBuilt": 1866,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HolyheadNewHarbour",
+    "name": "HolyheadNewHarbour",
+    "easting": 223983.2398,
+    "northing": 383560.1079,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HolyheadOldHarbour",
+    "name": "HolyheadOldHarbour",
+    "easting": 225468.7743,
+    "northing": 382959.3766,
+    "yearBuilt": 1864,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HolyheadOldPier",
+    "name": "HolyheadOldPier",
+    "easting": 225410.2422,
+    "northing": 382745.4973,
+    "yearBuilt": 1820,
+    "reach": [null, null, null, 11, null],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "HorseSand",
+    "name": "HorseSand",
+    "easting": 465434.5746,
+    "northing": 94913.828,
+    "yearBuilt": 1866,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HorseSandNorthDolphin",
+    "name": "HorseSandNorthDolphin",
+    "easting": 465438.192,
+    "northing": 94962.9143,
+    "yearBuilt": 1908,
+    "reach": [null, null, null, null, 2],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "HorseSandSouthDolphin",
+    "name": "HorseSandSouthDolphin",
+    "easting": 448128.4333,
+    "northing": 102780.4924,
+    "yearBuilt": 1908,
+    "reach": [null, null, null, null, 2],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Hoylake",
+    "name": "Hoylake",
+    "easting": 321326.9131,
+    "northing": 389073.8868,
+    "yearBuilt": 1763,
+    "reach": [null, null, 10, 13, null],
+    "lights": [null, null, 2, 2, null]
+  },
+  {
+    "Name": "Hunstanton",
+    "name": "Hunstanton",
+    "easting": 567516.9528,
+    "northing": 342081.4359,
+    "yearBuilt": 1665,
+    "reach": [null, null, 14, 13, 16],
+    "lights": [1, 1, 1, 1, 1]
+  },
+  {
+    "Name": "Hurst",
+    "name": "Hurst",
+    "easting": 431746.3182,
+    "northing": 89972.3901,
+    "yearBuilt": 1786,
+    "reach": [null, null, 12, 12, 14],
+    "lights": [null, null, 2, 2, 2]
+  },
+  {
+    "Name": "IlfracombeHarbour",
+    "name": "IlfracombeHarbour",
+    "easting": 252371.5627,
+    "northing": 146835.111,
+    "yearBuilt": 1650,
+    "reach": [null, null, 15, 15, 5],
+    "lights": [1, 1, 1, 1, 2]
+  },
+  {
+    "Name": "InnerDowsing_LV",
+    "name": "InnerDowsing_LV",
+    "easting": 578258.1796,
+    "northing": 384565.6699,
+    "yearBuilt": 1873,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "InnerEndMailJetty",
+    "name": "InnerEndMailJetty",
+    "easting": 225394.636,
+    "northing": 383292.1529,
+    "yearBuilt": 1898,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "JackInTheBox",
+    "name": "JackInTheBox",
+    "easting": 631486.7666,
+    "northing": 234923.9542,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Jenningtree",
+    "name": "Jenningtree",
+    "easting": 550222.3552,
+    "northing": 180642.2846,
+    "yearBuilt": 1901,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "JerseyEsplanade",
+    "name": "JerseyEsplanade",
+    "easting": 391478.7657,
+    "northing": -79224.6217,
+    "yearBuilt": 1858,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "KentishKnock_LV",
+    "name": "KentishKnock_LV",
+    "easting": 645609.1321,
+    "northing": 191452.9262,
+    "yearBuilt": 1840,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "Killingholme",
+    "name": "Killingholme",
+    "easting": 517720.4624,
+    "northing": 418242.8646,
+    "yearBuilt": 1836,
+    "reach": [null, null, null, 11, 12],
+    "lights": [null, null, null, 2, 3]
+  },
+  {
+    "Name": "KingsStairs",
+    "name": "KingsStairs",
+    "easting": 462606.0391,
+    "northing": 100817.7173,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Kingswear",
+    "name": "Kingswear",
+    "easting": 288335.5623,
+    "northing": 50898.1513,
+    "yearBuilt": 1864,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LaGreveDazette",
+    "name": "LaGreveDazette",
+    "easting": 393419.777,
+    "northing": -80772.2833,
+    "yearBuilt": 1896,
+    "reach": [null, null, null, null, 14],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LadyWindsor_Lock",
+    "name": "LadyWindsor_Lock",
+    "easting": 312263.8366,
+    "northing": 166916.2315,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Langness",
+    "name": "Langness",
+    "easting": 228218.2002,
+    "northing": 465305.9354,
+    "yearBuilt": 1880,
+    "reach": [null, null, null, null, 14],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Laxey",
+    "name": "Laxey",
+    "easting": 244336.3145,
+    "northing": 483604.1033,
+    "yearBuilt": 1891,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Leasowe",
+    "name": "Leasowe",
+    "easting": 325774.7684,
+    "northing": 391330.1635,
+    "yearBuilt": 1763,
+    "reach": [null, null, 16, 15, null],
+    "lights": [null, null, 1, 1, null]
+  },
+  {
+    "Name": "LeatherBottle",
+    "name": "LeatherBottle",
+    "easting": 549341.5931,
+    "northing": 180833.973,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LeeOnSolent",
+    "name": "LeeOnSolent",
+    "easting": 456030.9363,
+    "northing": 100515.7668,
+    "yearBuilt": 1890,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LeeScar",
+    "name": "LeeScar",
+    "easting": 310285.3214,
+    "northing": 553633.7431,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, 6, 10],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "LeighWood",
+    "name": "LeighWood",
+    "easting": 356217.7055,
+    "northing": 173271.3657,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LemanOwer_LV",
+    "name": "LemanOwer_LV",
+    "easting": 664724.7996,
+    "northing": 361597.0771,
+    "yearBuilt": 1840,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "LittlehamptonEastPier",
+    "name": "LittlehamptonEastPier",
+    "easting": 502729.3639,
+    "northing": 101351.8944,
+    "yearBuilt": 1848,
+    "reach": [null, null, null, 7, 7],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "LittlehamptonWestPier",
+    "name": "LittlehamptonWestPier",
+    "easting": 502812.0751,
+    "northing": 100907.3971,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LiverpoolBar_LV",
+    "name": "LiverpoolBar_LV",
+    "easting": 315884.1503,
+    "northing": 403105.4313,
+    "yearBuilt": 1873,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LiverpoolBidston",
+    "name": "LiverpoolBidston",
+    "easting": 328575.8048,
+    "northing": 389930.6538,
+    "yearBuilt": 1771,
+    "reach": [null, null, 20, 23, 21],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "LiverpoolCrosby_LV",
+    "name": "LiverpoolCrosby_LV",
+    "easting": 326803.3498,
+    "northing": 402404.2368,
+    "yearBuilt": 1839,
+    "reach": [null, null, null, 13, 10],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "LiverpoolFormby_LV",
+    "name": "LiverpoolFormby_LV",
+    "easting": 321029.8698,
+    "northing": 403970.4833,
+    "yearBuilt": 1834,
+    "reach": [null, null, null, 8, 8],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "LiverpoolGeorges",
+    "name": "LiverpoolGeorges",
+    "easting": 333883.0755,
+    "northing": 389885.8065,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "LiverpoolNW_LV",
+    "name": "LiverpoolNW_LV",
+    "easting": 302080.865,
+    "northing": 405148.3153,
+    "yearBuilt": 1814,
+    "reach": [null, null, 9, 10, 10],
+    "lights": [null, null, 3, 3, 1]
+  },
+  {
+    "Name": "LiverpoolNorthWall",
+    "name": "LiverpoolNorthWall",
+    "easting": 333183.1166,
+    "northing": 395351.8382,
+    "yearBuilt": 1877,
+    "reach": [null, null, null, null, 13],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LiverpoolPrincesDock",
+    "name": "LiverpoolPrincesDock",
+    "easting": 333404.6196,
+    "northing": 390895.8113,
+    "yearBuilt": 1897,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "LiverpoolSalisburyDock",
+    "name": "LiverpoolSalisburyDock",
+    "easting": 333209.4205,
+    "northing": 392081.3922,
+    "yearBuilt": 1898,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Lizard",
+    "name": "Lizard",
+    "easting": 170367.1465,
+    "northing": 11655.3927,
+    "yearBuilt": 1751,
+    "reach": [null, null, 20, 20, 21],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "LlanddwynIsland",
+    "name": "LlanddwynIsland",
+    "easting": 238434.0014,
+    "northing": 362535.7734,
+    "yearBuilt": 1845,
+    "reach": [null, null, null, 5, 5],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Llandudno",
+    "name": "Llandudno",
+    "easting": 278488.0294,
+    "northing": 383216.076,
+    "yearBuilt": 1877,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Llanelly",
+    "name": "Llanelly",
+    "easting": 249958.7698,
+    "northing": 198623.128,
+    "yearBuilt": 1850,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Longsand_LV",
+    "name": "Longsand_LV",
+    "easting": 647511.337,
+    "northing": 216509.4322,
+    "yearBuilt": 1883,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Longships",
+    "name": "Longships",
+    "easting": 131900.5055,
+    "northing": 25326.3657,
+    "yearBuilt": 1795,
+    "reach": [null, null, 14, 14, 16],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "Longstone",
+    "name": "Longstone",
+    "easting": 424492.5207,
+    "northing": 638980.5003,
+    "yearBuilt": 1826,
+    "reach": [null, null, 13, 13, 14],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "Looe",
+    "name": "Looe",
+    "easting": 225622.244,
+    "northing": 52892.774,
+    "yearBuilt": 1899,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LowerHopePoint",
+    "name": "LowerHopePoint",
+    "easting": 571374.3067,
+    "northing": 178872.4116,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Lowestoft",
+    "name": "Lowestoft",
+    "easting": 655446.4508,
+    "northing": 293704.3417,
+    "yearBuilt": 1609,
+    "reach": [null, null, 16, 18, 17],
+    "lights": [2, 2, 2, 1, 2]
+  },
+  {
+    "Name": "LowestoftHarbour",
+    "name": "LowestoftHarbour",
+    "easting": 655065.3098,
+    "northing": 292629.6015,
+    "yearBuilt": 1847,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 4]
+  },
+  {
+    "Name": "Lundy",
+    "name": "Lundy",
+    "easting": 212993.4355,
+    "northing": 148189.9457,
+    "yearBuilt": 1820,
+    "reach": [null, null, 30, 30, 19],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "LundySouth",
+    "name": "LundySouth",
+    "easting": 214325.9214,
+    "northing": 143719.4752,
+    "yearBuilt": 1897,
+    "reach": [null, null, null, null, 20],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LuneRiver",
+    "name": "LuneRiver",
+    "easting": 342112.8771,
+    "northing": 454153.3863,
+    "yearBuilt": 1847,
+    "reach": [null, null, null, 9, 7],
+    "lights": [null, null, null, 2, 4]
+  },
+  {
+    "Name": "Lune_LV",
+    "name": "Lune_LV",
+    "easting": 325454.5475,
+    "northing": 447458.7624,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LymeRegis",
+    "name": "LymeRegis",
+    "easting": 334326.669,
+    "northing": 92202.7859,
+    "yearBuilt": 1853,
+    "reach": [null, null, null, null, 4],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "LymingtonPier",
+    "name": "LymingtonPier",
+    "easting": 433235.27,
+    "northing": 95388.5704,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LymingtonTown",
+    "name": "LymingtonTown",
+    "easting": 432727.7201,
+    "northing": 95737.7334,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "LynemouthForeland",
+    "name": "LynemouthForeland",
+    "easting": 275309.7941,
+    "northing": 151157.6804,
+    "yearBuilt": 1900,
+    "reach": [null, null, null, null, 21],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Lynmouth",
+    "name": "Lynmouth",
+    "easting": 275309.5431,
+    "northing": 151171.285,
+    "yearBuilt": 1890,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Lynn",
+    "name": "Lynn",
+    "easting": 558687.7812,
+    "northing": 326261.8001,
+    "yearBuilt": 1868,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "LynnWell_LV",
+    "name": "LynnWell_LV",
+    "easting": 562050.4196,
+    "northing": 350597.1957,
+    "yearBuilt": 1828,
+    "reach": [null, null, 10, 10, 11],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "Lynus",
+    "name": "Lynus",
+    "easting": 247872.1424,
+    "northing": 393515.8792,
+    "yearBuilt": 1779,
+    "reach": [null, null, 12, 16, 16],
+    "lights": [null, null, 2, 1, 1]
+  },
+  {
+    "Name": "Lytham",
+    "name": "Lytham",
+    "easting": 336646.0343,
+    "northing": 426687.739,
+    "yearBuilt": 0,
+    "reach": [null, null, null, 10, null],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Maplin_LV",
+    "name": "Maplin_LV",
+    "easting": 611396.5269,
+    "northing": 189999.7385,
+    "yearBuilt": 1838,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "MarchwoodPier",
+    "name": "MarchwoodPier",
+    "easting": 440851.315,
+    "northing": 110769.8624,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Margaret",
+    "name": "Margaret",
+    "easting": 545159.0105,
+    "northing": 181030.7108,
+    "yearBuilt": 1902,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MargatePromenadePier",
+    "name": "MargatePromenadePier",
+    "easting": 635000.7621,
+    "northing": 171226.3437,
+    "yearBuilt": 1829,
+    "reach": [null, null, 13, 10, null],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "MargateStonePier",
+    "name": "MargateStonePier",
+    "easting": 635029.5619,
+    "northing": 171266.772,
+    "yearBuilt": 1829,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MaryportNorhtPier",
+    "name": "MaryportNorhtPier",
+    "easting": 302905.3215,
+    "northing": 536888.939,
+    "yearBuilt": 1884,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MaryportSouhtPier",
+    "name": "MaryportSouhtPier",
+    "easting": 302705.7394,
+    "northing": 536917.3837,
+    "yearBuilt": 1834,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MaryportSouthSide",
+    "name": "MaryportSouthSide",
+    "easting": 302782.6196,
+    "northing": 536402.6246,
+    "yearBuilt": 1857,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MaryportSouthWoodenPier",
+    "name": "MaryportSouthWoodenPier",
+    "easting": 303149.7876,
+    "northing": 536717.8535,
+    "yearBuilt": 1796,
+    "reach": [null, null, 8, 10, 6],
+    "lights": [null, null, 2, 1, 1]
+  },
+  {
+    "Name": "MaugholdHead",
+    "name": "MaugholdHead",
+    "easting": 249718.9455,
+    "northing": 491377.2344,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Menai",
+    "name": "Menai",
+    "easting": 255446.4002,
+    "northing": 371808.5256,
+    "yearBuilt": 1837,
+    "reach": [null, null, null, 10, 13],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "MenaiBridge",
+    "name": "MenaiBridge",
+    "easting": 255581.6038,
+    "northing": 371514.5667,
+    "yearBuilt": 1902,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MerseyRiverHerculaneumDock",
+    "name": "MerseyRiverHerculaneumDock",
+    "easting": 335505.4115,
+    "northing": 387315.0123,
+    "yearBuilt": 1893,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "MerseyRiverHerculaneumDockWall",
+    "name": "MerseyRiverHerculaneumDockWall",
+    "easting": 335496.3966,
+    "northing": 387190.0841,
+    "yearBuilt": 1887,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Mevagissey",
+    "name": "Mevagissey",
+    "easting": 201772.5889,
+    "northing": 44789.3397,
+    "yearBuilt": 1889,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Middle_LV",
+    "name": "Middle_LV",
+    "easting": 530972.1377,
+    "northing": 413421.2544,
+    "yearBuilt": 1868,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Milford",
+    "name": "Milford",
+    "easting": 190149.2143,
+    "northing": 205624.9693,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 1],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "MilfordChurchLake",
+    "name": "MilfordChurchLake",
+    "easting": 195994.5488,
+    "northing": 205259.8376,
+    "yearBuilt": 1883,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "MilfordHazelBeach",
+    "name": "MilfordHazelBeach",
+    "easting": 194681.6379,
+    "northing": 204786.6691,
+    "yearBuilt": 1883,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "MilfordHmDockyard",
+    "name": "MilfordHmDockyard",
+    "easting": 195935.6106,
+    "northing": 203720.2836,
+    "yearBuilt": 1862,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MilfordLightTower",
+    "name": "MilfordLightTower",
+    "easting": 180627.5818,
+    "northing": 202871.788,
+    "yearBuilt": 1714,
+    "reach": [null, null, 19, null, null],
+    "lights": [null, 1, 2, null, null]
+  },
+  {
+    "Name": "MilfordNeylandPoint_LV",
+    "name": "MilfordNeylandPoint_LV",
+    "easting": 181321.8382,
+    "northing": 197063.3168,
+    "yearBuilt": 1868,
+    "reach": [null, null, null, null, 2],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Minehead",
+    "name": "Minehead",
+    "easting": 297152.7303,
+    "northing": 147133.0272,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 4],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Monkstone",
+    "name": "Monkstone",
+    "easting": 323512.8187,
+    "northing": 169074.7862,
+    "yearBuilt": 1859,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Morecambe",
+    "name": "Morecambe",
+    "easting": 342449.5672,
+    "northing": 464777.9453,
+    "yearBuilt": 1851,
+    "reach": [null, null, null, null, 8],
+    "lights": [null, null, null, null, 3]
+  },
+  {
+    "Name": "MorecambeBay_LV",
+    "name": "MorecambeBay_LV",
+    "easting": 314476.5928,
+    "northing": 445862.9448,
+    "yearBuilt": 1863,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MountField",
+    "name": "MountField",
+    "easting": 260186.2333,
+    "northing": 372552.0212,
+    "yearBuilt": 1896,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MountWise",
+    "name": "MountWise",
+    "easting": 246080.7002,
+    "northing": 53321.7993,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Mouse_LV",
+    "name": "Mouse_LV",
+    "easting": 603969.3386,
+    "northing": 183984.461,
+    "yearBuilt": 1838,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "MouseholeHarbour",
+    "name": "MouseholeHarbour",
+    "easting": 146955.1123,
+    "northing": 26356.6965,
+    "yearBuilt": 1896,
+    "reach": [null, null, null, null, 4],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "MtOrgueilGorey",
+    "name": "MtOrgueilGorey",
+    "easting": 398620.5575,
+    "northing": -77882.5551,
+    "yearBuilt": 1898,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Mucking",
+    "name": "Mucking",
+    "easting": 572713.3372,
+    "northing": 181181.212,
+    "yearBuilt": 1849,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Mumbles",
+    "name": "Mumbles",
+    "easting": 263398.4918,
+    "northing": 187224.7712,
+    "yearBuilt": 1798,
+    "reach": [null, null, 15, 15, 15],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "MuttonCove",
+    "name": "MuttonCove",
+    "easting": 244786.7728,
+    "northing": 56038.7128,
+    "yearBuilt": 1891,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Nab_LV",
+    "name": "Nab_LV",
+    "easting": 613810.2616,
+    "northing": 92748.1399,
+    "yearBuilt": 1812,
+    "reach": [null, null, 8, null, 11],
+    "lights": [null, null, 2, 1, 1]
+  },
+  {
+    "Name": "Nash",
+    "name": "Nash",
+    "easting": 292038.3179,
+    "northing": 168064.9236,
+    "yearBuilt": 1832,
+    "reach": [null, null, null, 18, 19],
+    "lights": [null, null, null, 2, 2]
+  },
+  {
+    "Name": "Naze_Beacon",
+    "name": "Naze_Beacon",
+    "easting": 626348.0094,
+    "northing": 223560.0804,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [1, 1, null, null, null]
+  },
+  {
+    "Name": "NeathEmbarkment",
+    "name": "NeathEmbarkment",
+    "easting": 270973.1246,
+    "northing": 191681.6606,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "NeathTrainingWall",
+    "name": "NeathTrainingWall",
+    "easting": 271782.2561,
+    "northing": 192637.2105,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Needles",
+    "name": "Needles",
+    "easting": 428848.4525,
+    "northing": 84875.7085,
+    "yearBuilt": 1786,
+    "reach": [null, null, 28, 27, 14],
+    "lights": [null, null, 3, 1, 1]
+  },
+  {
+    "Name": "NewPassage",
+    "name": "NewPassage",
+    "easting": 350902.1871,
+    "northing": 179684.8625,
+    "yearBuilt": 1868,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "NewQuay",
+    "name": "NewQuay",
+    "easting": 180958.3298,
+    "northing": 62640.9517,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Newarp_LV",
+    "name": "Newarp_LV",
+    "easting": 662035.9702,
+    "northing": 324042.129,
+    "yearBuilt": 1791,
+    "reach": [null, null, 9, 10, 11],
+    "lights": [null, null, 3, 3, 1]
+  },
+  {
+    "Name": "NewhavenBreakwater",
+    "name": "NewhavenBreakwater",
+    "easting": 545119.4895,
+    "northing": 99445.4781,
+    "yearBuilt": 1892,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "NewhavenEastPier",
+    "name": "NewhavenEastPier",
+    "easting": 545187.8204,
+    "northing": 99937.7123,
+    "yearBuilt": 1862,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "NewhavenWestPier",
+    "name": "NewhavenWestPier",
+    "easting": 545104.6151,
+    "northing": 99447.623,
+    "yearBuilt": 1799,
+    "reach": [null, null, 8, 8, null],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "Newlyn",
+    "name": "Newlyn",
+    "easting": 146693.5821,
+    "northing": 28628.2012,
+    "yearBuilt": 1887,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "NewshamBooth",
+    "name": "NewshamBooth",
+    "easting": 505238.3477,
+    "northing": 426215.145,
+    "yearBuilt": 1880,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "NewtonNoyes",
+    "name": "NewtonNoyes",
+    "easting": 191758.909,
+    "northing": 204957.1581,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 1],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "NinthBuoy",
+    "name": "NinthBuoy",
+    "easting": 454386.3848,
+    "northing": 526683.1957,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "NomansLand",
+    "name": "NomansLand",
+    "easting": 463824.7436,
+    "northing": 93786.8636,
+    "yearBuilt": 1866,
+    "reach": [null, null, null, null, 8],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Nore_LV",
+    "name": "Nore_LV",
+    "easting": 594390.5782,
+    "northing": 179813.8563,
+    "yearBuilt": 1732,
+    "reach": [null, null, 10, 10, 11],
+    "lights": [null, 1, 1, 1, 1]
+  },
+  {
+    "Name": "NorthGoodwin_LV",
+    "name": "NorthGoodwin_LV",
+    "easting": 650440.2454,
+    "northing": 166322.5238,
+    "yearBuilt": 1793,
+    "reach": [null, null, 9, 10, 11],
+    "lights": [null, null, 3, 3, 1]
+  },
+  {
+    "Name": "NorthStack",
+    "name": "NorthStack",
+    "easting": 221422.2843,
+    "northing": 383996.0299,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "NorthSunderlandNWPier",
+    "name": "NorthSunderlandNWPier",
+    "easting": 422128.6295,
+    "northing": 632294.7967,
+    "yearBuilt": 1877,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "NorthSunderlandOldPier",
+    "name": "NorthSunderlandOldPier",
+    "easting": 422008.0975,
+    "northing": 632172.558,
+    "yearBuilt": 1889,
+    "reach": [null, null, null, null, 4],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "NorthTonguePier",
+    "name": "NorthTonguePier",
+    "easting": 302893.7075,
+    "northing": 536891.192,
+    "yearBuilt": 1857,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "NorthTrainingWall",
+    "name": "NorthTrainingWall",
+    "easting": 337434.8719,
+    "northing": 425927.4669,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "North_Foreland",
+    "name": "North_Foreland",
+    "easting": 639736.3253,
+    "northing": 169669.5293,
+    "yearBuilt": 1790,
+    "reach": [null, null, 22, 18, 20],
+    "lights": [1, 1, 1, 1, 1]
+  },
+  {
+    "Name": "Northfleet",
+    "name": "Northfleet",
+    "easting": 562412.0325,
+    "northing": 174768.6107,
+    "yearBuilt": 1859,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "OldEastPier",
+    "name": "OldEastPier",
+    "easting": 266701.1839,
+    "northing": 191833.1304,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "OldHarbour",
+    "name": "OldHarbour",
+    "easting": 361325.4755,
+    "northing": -49250.5604,
+    "yearBuilt": 1832,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "OldNorthWall",
+    "name": "OldNorthWall",
+    "easting": 297001.7887,
+    "northing": 518506.2699,
+    "yearBuilt": 1902,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Orfordness",
+    "name": "Orfordness",
+    "easting": 644853.3397,
+    "northing": 248907.2905,
+    "yearBuilt": 1792,
+    "reach": [null, null, 22, 12, 15],
+    "lights": [2, 2, 2, 1, 2]
+  },
+  {
+    "Name": "OuterDowsing_LV",
+    "name": "OuterDowsing_LV",
+    "easting": 599031.131,
+    "northing": 410841.0903,
+    "yearBuilt": 1861,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "OuterGabbard_LV",
+    "name": "OuterGabbard_LV",
+    "easting": 670614.2934,
+    "northing": 237128.6578,
+    "yearBuilt": 1888,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "OuterTownCamber",
+    "name": "OuterTownCamber",
+    "easting": 459063.3616,
+    "northing": 105231.345,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Owers_LV",
+    "name": "Owers_LV",
+    "easting": 589045.1295,
+    "northing": 71448.7742,
+    "yearBuilt": 1788,
+    "reach": [null, null, 9, 10, 11],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "Padstow",
+    "name": "Padstow",
+    "easting": 193073.8596,
+    "northing": 75728.9716,
+    "yearBuilt": 1868,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Pakefield",
+    "name": "Pakefield",
+    "easting": 653609.1894,
+    "northing": 289668.9018,
+    "yearBuilt": 1832,
+    "reach": [null, null, null, 9, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "Parkeston",
+    "name": "Parkeston",
+    "easting": 624055.4764,
+    "northing": 232743.731,
+    "yearBuilt": 1882,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PaullCliffs",
+    "name": "PaullCliffs",
+    "easting": 517091.1153,
+    "northing": 425000.8658,
+    "yearBuilt": 1836,
+    "reach": [null, null, null, 7, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "PeelHarbourBreakwater",
+    "name": "PeelHarbourBreakwater",
+    "easting": 224362.8062,
+    "northing": 484723.5027,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PeelHarbourPier",
+    "name": "PeelHarbourPier",
+    "easting": 224183.3541,
+    "northing": 484476.0823,
+    "yearBuilt": 1811,
+    "reach": [null, null, 5, 8, 3],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "PembreyHarbour",
+    "name": "PembreyHarbour",
+    "easting": 242083.2362,
+    "northing": 198962.8346,
+    "yearBuilt": 1819,
+    "reach": [null, null, 3, 9, null],
+    "lights": [null, null, 1, 1, null]
+  },
+  {
+    "Name": "Penarth",
+    "name": "Penarth",
+    "easting": 319012.9993,
+    "northing": 171349.7974,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Pendeen",
+    "name": "Pendeen",
+    "easting": 137829.8091,
+    "northing": 35960.1967,
+    "yearBuilt": 1900,
+    "reach": [null, null, null, null, 20],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Penrhyn",
+    "name": "Penrhyn",
+    "easting": 259096.3941,
+    "northing": 373139.0819,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PenzancePier",
+    "name": "PenzancePier",
+    "easting": 147703.5468,
+    "northing": 30278.333,
+    "yearBuilt": 1817,
+    "reach": [null, null, 9, 9, null],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "PielHarbour1",
+    "name": "PielHarbour1",
+    "easting": 323080.0359,
+    "northing": 464917.1071,
+    "yearBuilt": 1883,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PielHarbour3",
+    "name": "PielHarbour3",
+    "easting": 321509.9075,
+    "northing": 465865.7271,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PielHarbour5",
+    "name": "PielHarbour5",
+    "easting": 319467.436,
+    "northing": 466381.212,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PlatteFougere",
+    "name": "PlatteFougere",
+    "easting": 364881.3592,
+    "northing": -42739.1628,
+    "yearBuilt": 1910,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PlymouthBreakWater",
+    "name": "PlymouthBreakWater",
+    "easting": 246390.3923,
+    "northing": 50585.0158,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PlymouthBreakwater_LV",
+    "name": "PlymouthBreakwater_LV",
+    "easting": 246389.0242,
+    "northing": 50584.7707,
+    "yearBuilt": 1759,
+    "reach": [null, null, 5, 9, 11],
+    "lights": [null, null, 2, 1, 1]
+  },
+  {
+    "Name": "PlymouthMillBay",
+    "name": "PlymouthMillBay",
+    "easting": 246740.7462,
+    "northing": 53986.1079,
+    "yearBuilt": 1880,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PlymouthMountBattonBreakwater",
+    "name": "PlymouthMountBattonBreakwater",
+    "easting": 248129.0538,
+    "northing": 53287.5108,
+    "yearBuilt": 1879,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PlymouthPenleePoint",
+    "name": "PlymouthPenleePoint",
+    "easting": 244163.5068,
+    "northing": 48799.9147,
+    "yearBuilt": 1902,
+    "reach": [null, null, null, null, 13],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PlymouthSuttonPool",
+    "name": "PlymouthSuttonPool",
+    "easting": 248270.9246,
+    "northing": 53737.2654,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PointAyr",
+    "name": "PointAyr",
+    "easting": 312286.2397,
+    "northing": 385072.2965,
+    "yearBuilt": 1776,
+    "reach": [null, null, 11, 10, null],
+    "lights": [null, null, 2, 1, null]
+  },
+  {
+    "Name": "PointOfAir",
+    "name": "PointOfAir",
+    "easting": 246349.3734,
+    "northing": 504849.4987,
+    "yearBuilt": 1818,
+    "reach": [null, null, 15, 15, 16],
+    "lights": [null, null, 1, 1, 2]
+  },
+  {
+    "Name": "Polperro",
+    "name": "Polperro",
+    "easting": 221039.8778,
+    "northing": 50844.733,
+    "yearBuilt": 1897,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Poole",
+    "name": "Poole",
+    "easting": 403717.2251,
+    "northing": 87085.3125,
+    "yearBuilt": 1848,
+    "reach": [null, null, null, 6, 6],
+    "lights": [null, null, null, 2, 3]
+  },
+  {
+    "Name": "PortErin",
+    "name": "PortErin",
+    "easting": 219515.5398,
+    "northing": 469182.3976,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PortLaMarieInnerPier",
+    "name": "PortLaMarieInnerPier",
+    "easting": 221027.9471,
+    "northing": 467667.2053,
+    "yearBuilt": 1884,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PortMellin",
+    "name": "PortMellin",
+    "easting": 166540.1133,
+    "northing": 17924.7991,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PortTalbot",
+    "name": "PortTalbot",
+    "easting": 274763.9721,
+    "northing": 188665.3642,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, 9],
+    "lights": [null, null, null, null, 4]
+  },
+  {
+    "Name": "PortTrevor",
+    "name": "PortTrevor",
+    "easting": 237507.573,
+    "northing": 347475.9258,
+    "yearBuilt": 1878,
+    "reach": [null, null, null, null, 2],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PortVictoria",
+    "name": "PortVictoria",
+    "easting": 589211.443,
+    "northing": 175579.258,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Porthcawl",
+    "name": "Porthcawl",
+    "easting": 281968.2816,
+    "northing": 176323.2289,
+    "yearBuilt": 1866,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Portishead",
+    "name": "Portishead",
+    "easting": 347632.8675,
+    "northing": 177643.836,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Portland",
+    "name": "Portland",
+    "easting": 367644.4447,
+    "northing": 68424.9765,
+    "yearBuilt": 1716,
+    "reach": [null, null, 19, 19, 18],
+    "lights": [null, 2, 2, 2, 2]
+  },
+  {
+    "Name": "PortlandCamber",
+    "name": "PortlandCamber",
+    "easting": 369681.7142,
+    "northing": 74278.6821,
+    "yearBuilt": 1892,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PortlandNorthEasternBreakWater",
+    "name": "PortlandNorthEasternBreakWater",
+    "easting": 369489.729,
+    "northing": 77336.1655,
+    "yearBuilt": 1905,
+    "reach": [null, null, null, null, 14],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "PortlandNorthernArm",
+    "name": "PortlandNorthernArm",
+    "easting": 369372.0149,
+    "northing": 77551.7808,
+    "yearBuilt": 1905,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PortlandOuterBreakWater",
+    "name": "PortlandOuterBreakWater",
+    "easting": 370710.2799,
+    "northing": 76277.9171,
+    "yearBuilt": 1851,
+    "reach": [null, null, null, 6, null],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "PortlandSouthShipChannel",
+    "name": "PortlandSouthShipChannel",
+    "easting": 370230.8593,
+    "northing": 74572.7493,
+    "yearBuilt": 1907,
+    "reach": [null, null, null, null, 2],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "PortlandTorpedoPierWestSideHarbour",
+    "name": "PortlandTorpedoPierWestSideHarbour",
+    "easting": 367305.209,
+    "northing": 75635.3283,
+    "yearBuilt": 1892,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Portleven",
+    "name": "Portleven",
+    "easting": 162614.382,
+    "northing": 25484.2167,
+    "yearBuilt": 1883,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Portreath",
+    "name": "Portreath",
+    "easting": 165428.8519,
+    "northing": 45537.1765,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PortsmouthHarbourRailwayLanding",
+    "name": "PortsmouthHarbourRailwayLanding",
+    "easting": 462787.1366,
+    "northing": 100116.533,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PortsmouthVictoriaPier",
+    "name": "PortsmouthVictoriaPier",
+    "easting": 462774.3239,
+    "northing": 99378.2085,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "PovertyNook",
+    "name": "PovertyNook",
+    "easting": 332637.4272,
+    "northing": 396525.6644,
+    "yearBuilt": 1910,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "PowderMagazinePoint",
+    "name": "PowderMagazinePoint",
+    "easting": 332736.3452,
+    "northing": 184794.5683,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, 4],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Predmouth",
+    "name": "Predmouth",
+    "easting": 209721.9829,
+    "northing": 49822.5757,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "PrincesChannel_LV",
+    "name": "PrincesChannel_LV",
+    "easting": 628553.348,
+    "northing": 181722.0095,
+    "yearBuilt": 1856,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Pwllheli",
+    "name": "Pwllheli",
+    "easting": 238811.8739,
+    "northing": 334779.4421,
+    "yearBuilt": 1907,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "QueenAlexandraDock",
+    "name": "QueenAlexandraDock",
+    "easting": 319374.7409,
+    "northing": 173497.8273,
+    "yearBuilt": 1898,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Queensborough",
+    "name": "Queensborough",
+    "easting": 590336.8006,
+    "northing": 172198.8058,
+    "yearBuilt": 1904,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "QueensboroughSpit",
+    "name": "QueensboroughSpit",
+    "easting": 590266.8811,
+    "northing": 172318.4845,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "RameHead",
+    "name": "RameHead",
+    "easting": 241735.2604,
+    "northing": 48395.8085,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "RamsayQueensPier",
+    "name": "RamsayQueensPier",
+    "easting": 246142.4742,
+    "northing": 494253.26,
+    "yearBuilt": 1882,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "RamseyHarbourNorthPier",
+    "name": "RamseyHarbourNorthPier",
+    "easting": 245559.6664,
+    "northing": 494699.113,
+    "yearBuilt": 1868,
+    "reach": [null, null, null, null, 9],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "RamseyHarbourSouthPier",
+    "name": "RamseyHarbourSouthPier",
+    "easting": 245559.0294,
+    "northing": 494635.7749,
+    "yearBuilt": 1800,
+    "reach": [null, null, 9, 10, 4],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "Ramsgate",
+    "name": "Ramsgate",
+    "easting": 638344.2259,
+    "northing": 164351.6557,
+    "yearBuilt": 1789,
+    "reach": [null, null, 6, null, null],
+    "lights": [null, null, 1, null, null]
+  },
+  {
+    "Name": "RamsgateEastPierHead",
+    "name": "RamsgateEastPierHead",
+    "easting": 638415.1485,
+    "northing": 164316.9797,
+    "yearBuilt": 1867,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "RamsgateProminadePier",
+    "name": "RamsgateProminadePier",
+    "easting": 639102.5771,
+    "northing": 165421.8007,
+    "yearBuilt": 1881,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "RamsgateWestPierHead",
+    "name": "RamsgateWestPierHead",
+    "easting": 638345.6209,
+    "northing": 164353.169,
+    "yearBuilt": 0,
+    "reach": [null, null, null, 6, 7],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "RedInnerPier",
+    "name": "RedInnerPier",
+    "easting": 238596.8278,
+    "northing": 475146.0266,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Rhyl",
+    "name": "Rhyl",
+    "easting": 299605.0093,
+    "northing": 381035.9313,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "RoaringMiddle_LV",
+    "name": "RoaringMiddle_LV",
+    "easting": 557855.7256,
+    "northing": 341557.1317,
+    "yearBuilt": 1908,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "RokerPier",
+    "name": "RokerPier",
+    "easting": 441496.2536,
+    "northing": 558722.5707,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, 15],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Rottingdean",
+    "name": "Rottingdean",
+    "easting": 537131.5352,
+    "northing": 102003.4232,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "RoundIsland",
+    "name": "RoundIsland",
+    "easting": 90118.9333,
+    "northing": 17787.0778,
+    "yearBuilt": 1887,
+    "reach": [null, null, null, null, 20],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "RoyalEdwardDock",
+    "name": "RoyalEdwardDock",
+    "easting": 350595.215,
+    "northing": 178730.189,
+    "yearBuilt": 1907,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 4]
+  },
+  {
+    "Name": "RoyalSovereign_LV",
+    "name": "RoyalSovereign_LV",
+    "easting": 572289.3345,
+    "northing": 99190.1572,
+    "yearBuilt": 1875,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Runcorn",
+    "name": "Runcorn",
+    "easting": 352221.4427,
+    "northing": 383357.099,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Ryde",
+    "name": "Ryde",
+    "easting": 459260.145,
+    "northing": 93690.9085,
+    "yearBuilt": 1852,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "RyeEastPier",
+    "name": "RyeEastPier",
+    "easting": 595163.9588,
+    "northing": 117851.378,
+    "yearBuilt": 1787,
+    "reach": [null, null, 9, 4, 3],
+    "lights": [null, null, 2, 2, 2]
+  },
+  {
+    "Name": "RyeGroyne",
+    "name": "RyeGroyne",
+    "easting": 594763.8075,
+    "northing": 118380.1366,
+    "yearBuilt": 1864,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Rye_Beacon1",
+    "name": "Rye_Beacon1",
+    "easting": 595050.9734,
+    "northing": 117847.4579,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "Rye_Beacon2",
+    "name": "Rye_Beacon2",
+    "easting": 595230.8729,
+    "northing": 118222.8257,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "Salcombe",
+    "name": "Salcombe",
+    "easting": 272465.1404,
+    "northing": 36518.1717,
+    "yearBuilt": 1836,
+    "reach": [null, null, null, null, 20],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "SaltEnd",
+    "name": "SaltEnd",
+    "easting": 515636.7473,
+    "northing": 427111.4259,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "SandowneBay_Beacon",
+    "name": "SandowneBay_Beacon",
+    "easting": 458430.368,
+    "northing": 79748.4684,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [1, 1, null, null, null]
+  },
+  {
+    "Name": "Saundersfoot",
+    "name": "Saundersfoot",
+    "easting": 213793.0429,
+    "northing": 204712.1888,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 1],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "ScarWeather_LV",
+    "name": "ScarWeather_LV",
+    "easting": 265673.8074,
+    "northing": 174162.0343,
+    "yearBuilt": 1862,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Scarborough",
+    "name": "Scarborough",
+    "easting": 504812.68,
+    "northing": 488574.5815,
+    "yearBuilt": 1806,
+    "reach": [null, null, 11, 13, 13],
+    "lights": [null, null, 1, 1, 2]
+  },
+  {
+    "Name": "SeaReach",
+    "name": "SeaReach",
+    "easting": 584208.6115,
+    "northing": 185614.4198,
+    "yearBuilt": 1849,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "SeaViewPier",
+    "name": "SeaViewPier",
+    "easting": 462821.1052,
+    "northing": 91805.0717,
+    "yearBuilt": 1901,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SeahamNorthPier",
+    "name": "SeahamNorthPier",
+    "easting": 443614.1072,
+    "northing": 549421.2958,
+    "yearBuilt": 1843,
+    "reach": [null, null, null, 14, 11],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "SeahamnNewSouthPier",
+    "name": "SeahamnNewSouthPier",
+    "easting": 443562.2616,
+    "northing": 549323.429,
+    "yearBuilt": 1906,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "SealSand",
+    "name": "SealSand",
+    "easting": 454010.6895,
+    "northing": 525381.6943,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SeatonCarew",
+    "name": "SeatonCarew",
+    "easting": 452497.8818,
+    "northing": 529865.627,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 2, null]
+  },
+  {
+    "Name": "Selker_LV",
+    "name": "Selker_LV",
+    "easting": 293986.4312,
+    "northing": 485504.3276,
+    "yearBuilt": 1883,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SelseaBill",
+    "name": "SelseaBill",
+    "easting": 485673.8046,
+    "northing": 92291.4892,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, 6],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SevenStones_LV",
+    "name": "SevenStones_LV",
+    "easting": 105247.0423,
+    "northing": 22993.2092,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "SeventhBuoy",
+    "name": "SeventhBuoy",
+    "easting": 454747.8835,
+    "northing": 527442.2102,
+    "yearBuilt": 1908,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Shambles_LV",
+    "name": "Shambles_LV",
+    "easting": 372787.324,
+    "northing": 67291.7572,
+    "yearBuilt": 1859,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Shanklin",
+    "name": "Shanklin",
+    "easting": 458787.8222,
+    "northing": 81891.2593,
+    "yearBuilt": 1892,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Sheerness",
+    "name": "Sheerness",
+    "easting": 590837.1177,
+    "northing": 175852.297,
+    "yearBuilt": 1859,
+    "reach": [null, null, null, null, 8],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Sheringham",
+    "name": "Sheringham",
+    "easting": 615977.172,
+    "northing": 343514.3428,
+    "yearBuilt": 1900,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Shipwash_LV",
+    "name": "Shipwash_LV",
+    "easting": 646605.1474,
+    "northing": 246725.4288,
+    "yearBuilt": 1837,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Shoe_Beacon",
+    "name": "Shoe_Beacon",
+    "easting": 607054.8181,
+    "northing": 195255.6846,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [1, 1, null, null, null]
+  },
+  {
+    "Name": "Shoeburyness",
+    "name": "Shoeburyness",
+    "easting": 594125.6654,
+    "northing": 184911.1459,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "ShorehamEastWestPiers",
+    "name": "ShorehamEastWestPiers",
+    "easting": 523437.9436,
+    "northing": 104365.1465,
+    "yearBuilt": 1877,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "ShorehamMiddlePier",
+    "name": "ShorehamMiddlePier",
+    "easting": 523368.4039,
+    "northing": 104801.7944,
+    "yearBuilt": 1825,
+    "reach": [null, null, 8, 10, null],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "ShorneMead",
+    "name": "ShorneMead",
+    "easting": 570530.5106,
+    "northing": 176700.0555,
+    "yearBuilt": 1901,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Shotley_Beacon",
+    "name": "Shotley_Beacon",
+    "easting": 624711.0012,
+    "northing": 233441.3219,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, null],
+    "lights": [1, null, null, null, 2]
+  },
+  {
+    "Name": "Sidmouth",
+    "name": "Sidmouth",
+    "easting": 312815.7185,
+    "northing": 87344.5364,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 8],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Silloth",
+    "name": "Silloth",
+    "easting": 310404.8348,
+    "northing": 553652.7287,
+    "yearBuilt": 1858,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Skegness",
+    "name": "Skegness",
+    "easting": 557117.5042,
+    "northing": 363439.2094,
+    "yearBuilt": 1881,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Skerries",
+    "name": "Skerries",
+    "easting": 226703.9893,
+    "northing": 394796.7357,
+    "yearBuilt": 1714,
+    "reach": [null, null, 20, 15, 17],
+    "lights": [null, 1, 1, 1, 2]
+  },
+  {
+    "Name": "Skinburness",
+    "name": "Skinburness",
+    "easting": 312257.8949,
+    "northing": 556058.5091,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, 9, 9],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Smalls",
+    "name": "Smalls",
+    "easting": 146567.8181,
+    "northing": 208928.0131,
+    "yearBuilt": 1778,
+    "reach": [null, null, 15, 13, 17],
+    "lights": [null, null, 1, 1, 2]
+  },
+  {
+    "Name": "SmithsKnoll_LV",
+    "name": "SmithsKnoll_LV",
+    "easting": 678665.0398,
+    "northing": 315997.3769,
+    "yearBuilt": 1886,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Solway_LV",
+    "name": "Solway_LV",
+    "easting": 292724.384,
+    "northing": 540622.0933,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, 6, 16],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "SouterPoint",
+    "name": "SouterPoint",
+    "easting": 440700.9304,
+    "northing": 564176.4145,
+    "yearBuilt": 1871,
+    "reach": [null, null, null, null, 15],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "SouthBishop",
+    "name": "SouthBishop",
+    "easting": 165055.6897,
+    "northing": 222670.9232,
+    "yearBuilt": 1839,
+    "reach": [null, null, null, 17, 18],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "SouthForeland",
+    "name": "SouthForeland",
+    "easting": 635786.6495,
+    "northing": 143363.0163,
+    "yearBuilt": 1793,
+    "reach": [null, null, 20, 25, 26],
+    "lights": [2, 2, 2, 1, 1]
+  },
+  {
+    "Name": "SouthGareBreakwater",
+    "name": "SouthGareBreakwater",
+    "easting": 455649.4258,
+    "northing": 528398.0244,
+    "yearBuilt": 1839,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthGoodwin_LV",
+    "name": "SouthGoodwin_LV",
+    "easting": 641510.797,
+    "northing": 144376.9078,
+    "yearBuilt": 1832,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "SouthRailwayJetty",
+    "name": "SouthRailwayJetty",
+    "easting": 462814.466,
+    "northing": 99872.3254,
+    "yearBuilt": 1878,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthSea",
+    "name": "SouthSea",
+    "easting": 464268.9139,
+    "northing": 98098.5999,
+    "yearBuilt": 1822,
+    "reach": [null, null, null, 9, 5],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "SouthStack",
+    "name": "SouthStack",
+    "easting": 220149.7975,
+    "northing": 382291.5368,
+    "yearBuilt": 1809,
+    "reach": [null, null, 19, 19, 20],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "SouthTrainingWall",
+    "name": "SouthTrainingWall",
+    "easting": 336022.5611,
+    "northing": 426124.3233,
+    "yearBuilt": 1910,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthYarmouthInner",
+    "name": "SouthYarmouthInner",
+    "easting": 435271.2428,
+    "northing": 89893.1981,
+    "yearBuilt": 1857,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthYarmouthOuter",
+    "name": "SouthYarmouthOuter",
+    "easting": 435331.8504,
+    "northing": 90056.2826,
+    "yearBuilt": 1857,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthYarmouthPier",
+    "name": "SouthYarmouthPier",
+    "easting": 435269.3567,
+    "northing": 89890.1832,
+    "yearBuilt": 1876,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonBadnamCreek",
+    "name": "SouthamptonBadnamCreek",
+    "easting": 448404.0374,
+    "northing": 108341.3436,
+    "yearBuilt": 1908,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonCalshotSpit_LV",
+    "name": "SouthamptonCalshotSpit_LV",
+    "easting": 449501.854,
+    "northing": 101077.7938,
+    "yearBuilt": 1842,
+    "reach": [null, null, null, 9, null],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "SouthamptonCalshot_LV",
+    "name": "SouthamptonCalshot_LV",
+    "easting": 452260.5707,
+    "northing": 101569.56,
+    "yearBuilt": 1842,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonDolphin",
+    "name": "SouthamptonDolphin",
+    "easting": 447811.5439,
+    "northing": 104681.1837,
+    "yearBuilt": 1899,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonEmpressDock",
+    "name": "SouthamptonEmpressDock",
+    "easting": 442708.7304,
+    "northing": 110140.9702,
+    "yearBuilt": 1891,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "SouthamptonFawley",
+    "name": "SouthamptonFawley",
+    "easting": 447333.1229,
+    "northing": 103495.1006,
+    "yearBuilt": 1896,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonHythe",
+    "name": "SouthamptonHythe",
+    "easting": 442671.794,
+    "northing": 108583.7812,
+    "yearBuilt": 1880,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonNeDolphin",
+    "name": "SouthamptonNeDolphin",
+    "easting": 448290.7685,
+    "northing": 105233.4882,
+    "yearBuilt": 1899,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonNetley",
+    "name": "SouthamptonNetley",
+    "easting": 445151.2744,
+    "northing": 108584.943,
+    "yearBuilt": 1877,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonOpenDock",
+    "name": "SouthamptonOpenDock",
+    "easting": 442104.8797,
+    "northing": 110335.3063,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "SouthamptonRoyalPier",
+    "name": "SouthamptonRoyalPier",
+    "easting": 441576.7476,
+    "northing": 110828.1881,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 2, 2]
+  },
+  {
+    "Name": "SouthamptonStructure",
+    "name": "SouthamptonStructure",
+    "easting": 446699.2591,
+    "northing": 103341.4803,
+    "yearBuilt": 1899,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonSwDolphin",
+    "name": "SouthamptonSwDolphin",
+    "easting": 447283.5678,
+    "northing": 103763.6394,
+    "yearBuilt": 1899,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SouthamptonTown",
+    "name": "SouthamptonTown",
+    "easting": 441810.4633,
+    "northing": 110574.6285,
+    "yearBuilt": 1880,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Southend",
+    "name": "Southend",
+    "easting": 588830.7612,
+    "northing": 183133.8047,
+    "yearBuilt": 1840,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "Southport",
+    "name": "Southport",
+    "easting": 332488.3822,
+    "northing": 418183.1146,
+    "yearBuilt": 1890,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Southwold",
+    "name": "Southwold",
+    "easting": 650814.0345,
+    "northing": 276330.5627,
+    "yearBuilt": 1881,
+    "reach": [null, null, null, null, 17],
+    "lights": [null, null, null, null, 4]
+  },
+  {
+    "Name": "Speke",
+    "name": "Speke",
+    "easting": 343100.697,
+    "northing": 381564.8067,
+    "yearBuilt": 1876,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SpitSand",
+    "name": "SpitSand",
+    "easting": 463527.5901,
+    "northing": 97223.3119,
+    "yearBuilt": 1866,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SpurnPoint",
+    "name": "SpurnPoint",
+    "easting": 540285.6254,
+    "northing": 411258.4553,
+    "yearBuilt": 1776,
+    "reach": [null, null, 15, 15, 17],
+    "lights": [2, 2, 2, 2, 3]
+  },
+  {
+    "Name": "Spurn_LV",
+    "name": "Spurn_LV",
+    "easting": 543318.5517,
+    "northing": 409210.5857,
+    "yearBuilt": 1820,
+    "reach": [null, null, 9, 10, 11],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "StAdhelms",
+    "name": "StAdhelms",
+    "easting": 367137.0879,
+    "northing": 81242.0355,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "StAgnes",
+    "name": "StAgnes",
+    "easting": 88060.3787,
+    "northing": 8390.5461,
+    "yearBuilt": 1680,
+    "reach": [null, null, 17, 16, 18],
+    "lights": [1, 1, 1, 1, 1]
+  },
+  {
+    "Name": "StAnns",
+    "name": "StAnns",
+    "easting": 180500.541,
+    "northing": 203008.0744,
+    "yearBuilt": 1714,
+    "reach": [null, null, null, 19, 18],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "StAnnsOnSea",
+    "name": "StAnnsOnSea",
+    "easting": 333126.4017,
+    "northing": 427488.7745,
+    "yearBuilt": 1848,
+    "reach": [null, null, null, 13, 12],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "StAnthony",
+    "name": "StAnthony",
+    "easting": 184518.5585,
+    "northing": 31213.4167,
+    "yearBuilt": 1835,
+    "reach": [null, null, null, 12, 14],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "StAubinHarbour",
+    "name": "StAubinHarbour",
+    "easting": 387843.3004,
+    "northing": -79235.1483,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StBees",
+    "name": "StBees",
+    "easting": 294053.2679,
+    "northing": 514396.9807,
+    "yearBuilt": 1718,
+    "reach": [null, null, 24, 23, 25],
+    "lights": [null, 1, 1, 1, 1]
+  },
+  {
+    "Name": "StCatherineBay",
+    "name": "StCatherineBay",
+    "easting": 399229.9651,
+    "northing": -75301.2086,
+    "yearBuilt": 1857,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StCatherines",
+    "name": "StCatherines",
+    "easting": 449716.4062,
+    "northing": 75398.1493,
+    "yearBuilt": 1840,
+    "reach": [null, null, null, 18, 18],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "StCatherinesPlymouth",
+    "name": "StCatherinesPlymouth",
+    "easting": 247629.2596,
+    "northing": 54272.85,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "StClements",
+    "name": "StClements",
+    "easting": 395496.1383,
+    "northing": -81456.4409,
+    "yearBuilt": 1896,
+    "reach": [null, null, null, null, 14],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StHelens",
+    "name": "StHelens",
+    "easting": 463055.2956,
+    "northing": 88717.1414,
+    "yearBuilt": 1866,
+    "reach": [null, null, null, null, 2],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StHellierAlbertPier",
+    "name": "StHellierAlbertPier",
+    "easting": 391668.4386,
+    "northing": -80325.2796,
+    "yearBuilt": 1839,
+    "reach": [null, null, null, 2, null],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "StHellierSouthPier",
+    "name": "StHellierSouthPier",
+    "easting": 391662.249,
+    "northing": -80418.533,
+    "yearBuilt": 1867,
+    "reach": [null, null, null, 2, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "StIvesInnerPier",
+    "name": "StIvesInnerPier",
+    "easting": 151832.6553,
+    "northing": 40638.4982,
+    "yearBuilt": 1831,
+    "reach": [null, null, null, 7, null],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "StIvesWestPier",
+    "name": "StIvesWestPier",
+    "easting": 151983.415,
+    "northing": 40686.3701,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StLeonards",
+    "name": "StLeonards",
+    "easting": 579463.821,
+    "northing": 108753.4416,
+    "yearBuilt": 1891,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StMargaretsBay",
+    "name": "StMargaretsBay",
+    "easting": 636648.1649,
+    "northing": 144300.284,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "StMaryPoint",
+    "name": "StMaryPoint",
+    "easting": 221363.1628,
+    "northing": 467481.7211,
+    "yearBuilt": 1812,
+    "reach": [null, null, 5, 9, 9],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "StMarys",
+    "name": "StMarys",
+    "easting": 435150.8089,
+    "northing": 575386.6978,
+    "yearBuilt": 1898,
+    "reach": [null, null, null, null, 17],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StMarysPeninnisHead",
+    "name": "StMarysPeninnisHead",
+    "easting": 91042.6648,
+    "northing": 9456.8516,
+    "yearBuilt": 1898,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StMichaelsMount",
+    "name": "StMichaelsMount",
+    "easting": 151381.3445,
+    "northing": 29909.1489,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "StNicholasChapel",
+    "name": "StNicholasChapel",
+    "easting": 151893.8026,
+    "northing": 41214.6192,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "StNicholasPlymouth",
+    "name": "StNicholasPlymouth",
+    "easting": 246998.5426,
+    "northing": 54921.6882,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "StNicholas_LV",
+    "name": "StNicholas_LV",
+    "easting": 658253.9155,
+    "northing": 295999.3569,
+    "yearBuilt": 1837,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "StPeterPortNewHarbour",
+    "name": "StPeterPortNewHarbour",
+    "easting": 361644.6621,
+    "northing": -49112.07,
+    "yearBuilt": 1867,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StTudwall",
+    "name": "StTudwall",
+    "easting": 233419.473,
+    "northing": 325227.085,
+    "yearBuilt": 1877,
+    "reach": [null, null, null, null, 18],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "St_Goven_LV",
+    "name": "St_Goven_LV",
+    "easting": 197091.3374,
+    "northing": 190590.7461,
+    "yearBuilt": 1907,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Staithes",
+    "name": "Staithes",
+    "easting": 478329.5872,
+    "northing": 519080.3639,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Stallingborough",
+    "name": "Stallingborough",
+    "easting": 520703.6809,
+    "northing": 415709.3719,
+    "yearBuilt": 1849,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Stanford_LV",
+    "name": "Stanford_LV",
+    "easting": 656506.1825,
+    "northing": 293651.0538,
+    "yearBuilt": 1802,
+    "reach": [null, null, 9, 9, null],
+    "lights": [null, null, 2, 2, null]
+  },
+  {
+    "Name": "StartPoint",
+    "name": "StartPoint",
+    "easting": 282860.9407,
+    "northing": 37183.4466,
+    "yearBuilt": 1836,
+    "reach": [null, null, null, 19, 20],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "StokesBay",
+    "name": "StokesBay",
+    "easting": 459930.1356,
+    "northing": 98032.5362,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Stoneness",
+    "name": "Stoneness",
+    "easting": 558454.7486,
+    "northing": 176128.1122,
+    "yearBuilt": 1885,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "StrumbleHead",
+    "name": "StrumbleHead",
+    "easting": 189172.2752,
+    "northing": 241320.1278,
+    "yearBuilt": 1908,
+    "reach": [null, null, null, null, 18],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SunderlandInnerNorthPier",
+    "name": "SunderlandInnerNorthPier",
+    "easting": 441005.897,
+    "northing": 558427.3141,
+    "yearBuilt": 1802,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "SunderlandInnerSouthPier",
+    "name": "SunderlandInnerSouthPier",
+    "easting": 440916.7774,
+    "northing": 558233.4392,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SunderlandNEPier",
+    "name": "SunderlandNEPier",
+    "easting": 441498.2512,
+    "northing": 558714.4784,
+    "yearBuilt": 1780,
+    "reach": [null, null, 20, 13, null],
+    "lights": [null, null, 2, 2, 1]
+  },
+  {
+    "Name": "SunderlandOuterSouthPier",
+    "name": "SunderlandOuterSouthPier",
+    "easting": 441472.0515,
+    "northing": 558456.4125,
+    "yearBuilt": 1794,
+    "reach": [null, null, 20, null, null],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "Sunk_LV",
+    "name": "Sunk_LV",
+    "easting": 639078.6691,
+    "northing": 215143.6252,
+    "yearBuilt": 1802,
+    "reach": [null, null, 10, 10, 11],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "SuttonBridge",
+    "name": "SuttonBridge",
+    "easting": 549170.2471,
+    "northing": 325752.9419,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SwanagePier",
+    "name": "SwanagePier",
+    "easting": 403592.0732,
+    "northing": 78907.9433,
+    "yearBuilt": 1896,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "SwanseaEastBreakWater",
+    "name": "SwanseaEastBreakWater",
+    "easting": 266452.6998,
+    "northing": 191760.4599,
+    "yearBuilt": 1909,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "SwanseaWestPier",
+    "name": "SwanseaWestPier",
+    "easting": 266577.1551,
+    "northing": 191543.4292,
+    "yearBuilt": 1803,
+    "reach": [null, null, 3, 9, 7],
+    "lights": [null, null, 1, 1, 1]
+  },
+  {
+    "Name": "SwinMiddel_LV",
+    "name": "SwinMiddel_LV",
+    "easting": 611845.476,
+    "northing": 198332.2047,
+    "yearBuilt": 1837,
+    "reach": [null, null, null, 10, 10],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "TeesRiverFourthBuoy",
+    "name": "TeesRiverFourthBuoy",
+    "easting": 455023.6508,
+    "northing": 529033.4423,
+    "yearBuilt": 1836,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Teignmouth",
+    "name": "Teignmouth",
+    "easting": 293780.3597,
+    "northing": 72436.5747,
+    "yearBuilt": 1845,
+    "reach": [null, null, null, 9, 6],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Tenby",
+    "name": "Tenby",
+    "easting": 213699.2275,
+    "northing": 200578.1642,
+    "yearBuilt": 1856,
+    "reach": [null, null, null, null, 3],
+    "lights": [null, null, null, null, 3]
+  },
+  {
+    "Name": "ThorngumbaldClough",
+    "name": "ThorngumbaldClough",
+    "easting": 519188.4279,
+    "northing": 423256.5784,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "TilburyNess",
+    "name": "TilburyNess",
+    "easting": 562590.4914,
+    "northing": 175296.9552,
+    "yearBuilt": 1892,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Tollesbury",
+    "name": "Tollesbury",
+    "easting": 597159.5619,
+    "northing": 208974.2923,
+    "yearBuilt": 1907,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Tongue_LV",
+    "name": "Tongue_LV",
+    "easting": 630251.9815,
+    "northing": 181313.0219,
+    "yearBuilt": 1848,
+    "reach": [null, null, null, 10, 11],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "Torquay",
+    "name": "Torquay",
+    "easting": 291795.3737,
+    "northing": 63117.7752,
+    "yearBuilt": 1852,
+    "reach": [null, null, null, null, 5],
+    "lights": [null, null, null, null, 3]
+  },
+  {
+    "Name": "TotlandBay",
+    "name": "TotlandBay",
+    "easting": 432079.021,
+    "northing": 87241.8325,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Trevose",
+    "name": "Trevose",
+    "easting": 185006.8757,
+    "northing": 76623.0729,
+    "yearBuilt": 1847,
+    "reach": [null, null, null, 19, 20],
+    "lights": [null, null, null, 2, 1]
+  },
+  {
+    "Name": "Tynemouth",
+    "name": "Tynemouth",
+    "easting": 436165.8121,
+    "northing": 568443.8134,
+    "yearBuilt": 1808,
+    "reach": [null, null, 18, 16, 16],
+    "lights": [2, 2, 2, 2, 2]
+  },
+  {
+    "Name": "TynemouthNorthPier",
+    "name": "TynemouthNorthPier",
+    "easting": 438185.7739,
+    "northing": 569047.8907,
+    "yearBuilt": 1864,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "TynemouthPrioryCastle",
+    "name": "TynemouthPrioryCastle",
+    "easting": 437213.0892,
+    "northing": 569405.8472,
+    "yearBuilt": 1802,
+    "reach": [null, null, 18, 17, null],
+    "lights": [1, 1, 1, 1, null]
+  },
+  {
+    "Name": "TynemouthSouthPier",
+    "name": "TynemouthSouthPier",
+    "easting": 438259.4607,
+    "northing": 568739.4231,
+    "yearBuilt": 1882,
+    "reach": [null, null, null, null, 7],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Unnamed1_Beacon",
+    "name": "Unnamed1_Beacon",
+    "easting": 637993.7551,
+    "northing": 152748.3303,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, null],
+    "lights": [null, 1, null, null, 1]
+  },
+  {
+    "Name": "Usk",
+    "name": "Usk",
+    "easting": 332188.9074,
+    "northing": 181820.5881,
+    "yearBuilt": 1821,
+    "reach": [null, null, 10, null, null],
+    "lights": [null, null, 1, null, 1]
+  },
+  {
+    "Name": "Varne_LV",
+    "name": "Varne_LV",
+    "easting": 629237.1269,
+    "northing": 129203.2565,
+    "yearBuilt": 1860,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Ventnor",
+    "name": "Ventnor",
+    "easting": 456327.5564,
+    "northing": 77300.1345,
+    "yearBuilt": 1887,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Walney",
+    "name": "Walney",
+    "easting": 322932.6697,
+    "northing": 462066.6938,
+    "yearBuilt": 1790,
+    "reach": [null, null, 15, 13, 13],
+    "lights": [null, null, 1, 2, 1]
+  },
+  {
+    "Name": "WaltonOnNaze",
+    "name": "WaltonOnNaze",
+    "easting": 625506.9289,
+    "northing": 221895.4804,
+    "yearBuilt": 1897,
+    "reach": [null, null, null, null, 1],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WarkworthNorthPier",
+    "name": "WarkworthNorthPier",
+    "easting": 427170.5206,
+    "northing": 605161.905,
+    "yearBuilt": 1891,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "WarkworthSouthPier",
+    "name": "WarkworthSouthPier",
+    "easting": 427144.2699,
+    "northing": 605047.3494,
+    "yearBuilt": 1848,
+    "reach": [null, null, null, 1, 5],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "Warner_LV",
+    "name": "Warner_LV",
+    "easting": 465623.9298,
+    "northing": 92746.9516,
+    "yearBuilt": 1854,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WatchetHabour",
+    "name": "WatchetHabour",
+    "easting": 307152.1289,
+    "northing": 143667.4726,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, 10],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WestBarbican",
+    "name": "WestBarbican",
+    "easting": 247667.212,
+    "northing": 53680.744,
+    "yearBuilt": 1822,
+    "reach": [null, null, 9, 6, 6],
+    "lights": [null, 1, 1, 1, 1]
+  },
+  {
+    "Name": "WestUsk",
+    "name": "WestUsk",
+    "easting": 331024.3299,
+    "northing": 182933.145,
+    "yearBuilt": 1821,
+    "reach": [null, null, null, null, 12],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WestonSuperMare",
+    "name": "WestonSuperMare",
+    "easting": 331277.662,
+    "northing": 161477.5223,
+    "yearBuilt": 1903,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Weymouth",
+    "name": "Weymouth",
+    "easting": 368768.0832,
+    "northing": 79031.9423,
+    "yearBuilt": 0,
+    "reach": [null, null, null, 5, null],
+    "lights": [null, null, null, 1, null]
+  },
+  {
+    "Name": "WeymouthBeach",
+    "name": "WeymouthBeach",
+    "easting": 367989.5174,
+    "northing": 79552.2252,
+    "yearBuilt": 1896,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "WeymouthNorthPier",
+    "name": "WeymouthNorthPier",
+    "easting": 368410.6324,
+    "northing": 79088.8996,
+    "yearBuilt": 1867,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Whitaker_Beacon",
+    "name": "Whitaker_Beacon",
+    "easting": 609161.6609,
+    "northing": 198621.2347,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [1, 1, null, null, null]
+  },
+  {
+    "Name": "Whitby",
+    "name": "Whitby",
+    "easting": 492763.2203,
+    "northing": 510116.6452,
+    "yearBuilt": 1858,
+    "reach": [null, null, null, null, 22],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "WhitbyEastPier",
+    "name": "WhitbyEastPier",
+    "easting": 489875.8757,
+    "northing": 511882.4709,
+    "yearBuilt": 1855,
+    "reach": [null, null, null, null, 8],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WhitbyWestPier",
+    "name": "WhitbyWestPier",
+    "easting": 489803.922,
+    "northing": 511881.0524,
+    "yearBuilt": 1831,
+    "reach": [null, null, null, 13, 10],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "WhiteRockPier",
+    "name": "WhiteRockPier",
+    "easting": 361845.6616,
+    "northing": -49146.9393,
+    "yearBuilt": 1832,
+    "reach": [null, null, null, 11, 4],
+    "lights": [null, null, null, 1, 2]
+  },
+  {
+    "Name": "WhitefordPoint",
+    "name": "WhitefordPoint",
+    "easting": 244517.1617,
+    "northing": 197150.2778,
+    "yearBuilt": 1865,
+    "reach": [null, null, null, null, 9],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Whitehaven",
+    "name": "Whitehaven",
+    "easting": 296712.1185,
+    "northing": 518483.0106,
+    "yearBuilt": 1727,
+    "reach": [null, null, 10, 11, null],
+    "lights": [null, 2, 2, 2, null]
+  },
+  {
+    "Name": "WhitehavenNorthPier",
+    "name": "WhitehavenNorthPier",
+    "easting": 296813.9148,
+    "northing": 518692.1773,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WhitehavenOldQuay",
+    "name": "WhitehavenOldQuay",
+    "easting": 297067.4737,
+    "northing": 518501.2209,
+    "yearBuilt": 1902,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WhitehavenWestPier",
+    "name": "WhitehavenWestPier",
+    "easting": 296616.609,
+    "northing": 518690.2034,
+    "yearBuilt": 1841,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WhitestoneBank_LV",
+    "name": "WhitestoneBank_LV",
+    "easting": 249628.6245,
+    "northing": 502991.893,
+    "yearBuilt": 1906,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Whitstable",
+    "name": "Whitstable",
+    "easting": 610572.5175,
+    "northing": 167212.846,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, 8],
+    "lights": [null, null, null, null, 2]
+  },
+  {
+    "Name": "Winchelsea",
+    "name": "Winchelsea",
+    "easting": 590382.8042,
+    "northing": 117413.479,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, null]
+  },
+  {
+    "Name": "WinteronChurchLights",
+    "name": "WinteronChurchLights",
+    "easting": 648998.7137,
+    "northing": 319489.0037,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [2, 2, null, null, null]
+  },
+  {
+    "Name": "WintertonNess",
+    "name": "WintertonNess",
+    "easting": 649565.0962,
+    "northing": 319255.121,
+    "yearBuilt": 1790,
+    "reach": [null, null, 20, 14, 16],
+    "lights": [2, 2, 1, 1, 1]
+  },
+  {
+    "Name": "Wisbech",
+    "name": "Wisbech",
+    "easting": 545542.9315,
+    "northing": 310914.9011,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Withernsea",
+    "name": "Withernsea",
+    "easting": 533817.3761,
+    "northing": 427986.9135,
+    "yearBuilt": 1894,
+    "reach": [null, null, null, null, 17],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WithinsWay",
+    "name": "WithinsWay",
+    "easting": 331702.7944,
+    "northing": 392839.1635,
+    "yearBuilt": 1907,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Wolf",
+    "name": "Wolf",
+    "easting": 126953.3164,
+    "northing": 12048.938,
+    "yearBuilt": 1870,
+    "reach": [null, null, null, null, 16],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WoodbridgeHaven",
+    "name": "WoodbridgeHaven",
+    "easting": 627204.7258,
+    "northing": 248517.1683,
+    "yearBuilt": 0,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Workington",
+    "name": "Workington",
+    "easting": 298217.4793,
+    "northing": 529678.4088,
+    "yearBuilt": 1825,
+    "reach": [null, null, 10, 11, null],
+    "lights": [null, null, 2, 2, 2]
+  },
+  {
+    "Name": "Worthing",
+    "name": "Worthing",
+    "easting": 514915.9149,
+    "northing": 102165.0491,
+    "yearBuilt": 1862,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "Would_LV",
+    "name": "Would_LV",
+    "easting": 665366.177,
+    "northing": 332972.6105,
+    "yearBuilt": 1880,
+    "reach": [null, null, null, null, 11],
+    "lights": [null, null, null, null, 1]
+  },
+  {
+    "Name": "WyreRiver",
+    "name": "WyreRiver",
+    "easting": 332328.0552,
+    "northing": 449671.3575,
+    "yearBuilt": 1840,
+    "reach": [null, null, null, 10, 10],
+    "lights": [null, null, null, 1, 1]
+  },
+  {
+    "Name": "YorkRockBreakwater",
+    "name": "YorkRockBreakwater",
+    "easting": 310540.4692,
+    "northing": 166461.6555,
+    "yearBuilt": 1895,
+    "reach": [null, null, null, null, null],
+    "lights": [null, null, null, null, 1]
+  }
+]

@@ -1,16 +1,27 @@
 #!/usr/bin/env python3
-import requests
-import json
 import os
+import sys
 from pathlib import Path
 
+# Add the project root directory to Python path
+project_root = Path(__file__).parent.parent
+sys.path.append(str(project_root))
+
+import requests
+import json
+from utils.logger import get_logger
+
+# Initialize logger
+logger = get_logger()
+
 # Create data directory if it doesn't exist
-Path("web/data").mkdir(parents=True, exist_ok=True)
+data_dir = project_root / "data" / "processed"
+data_dir.mkdir(parents=True, exist_ok=True)
 
 # Natural Earth Data URL for UK coastline (1:10m resolution)
 url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson"
 
-print("Downloading coastline data...")
+logger.info("Downloading coastline data...")
 response = requests.get(url)
 data = response.json()
 
@@ -29,8 +40,9 @@ if uk_feature:
     }
     
     # Save to file
-    with open('web/data/uk.json', 'w') as f:
+    output_file = data_dir / "uk.json"
+    with open(output_file, 'w') as f:
         json.dump(uk_geojson, f)
-    print("UK coastline data saved to web/data/uk.json")
+    logger.info(f"UK coastline data saved to {output_file}")
 else:
-    print("Error: Could not find UK feature in the data") 
+    logger.error("Error: Could not find UK feature in the data") 
