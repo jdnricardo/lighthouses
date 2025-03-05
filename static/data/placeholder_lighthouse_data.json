@@ -4,6 +4,7 @@
     "lat": 56.4337,
     "lon": -2.387,
     "yearBuilt": 1811,
+    "height": 35,
     "reach": [null, null, 15, 20, 22],
     "lights": [null, null, 1, 2, 2]
   },
@@ -12,6 +13,7 @@
     "lat": 50.1835,
     "lon": -4.2673,
     "yearBuilt": 1882,
+    "height": 49,
     "reach": [8, 13, 13, 13, 17],
     "lights": [1, 1, 1, 2, 2]
   },
@@ -20,6 +22,7 @@
     "lat": 51.3889,
     "lon": -9.6036,
     "yearBuilt": 1904,
+    "height": 54,
     "reach": [null, null, null, 18, 27],
     "lights": [null, null, null, 1, 1]
   },
@@ -28,6 +31,7 @@
     "lat": 52.124,
     "lon": -6.9293,
     "yearBuilt": 1245,
+    "height": 35,
     "reach": [10, 12, 15, 17, 20],
     "lights": [1, 1, 1, 2, 2]
   },
@@ -36,6 +40,7 @@
     "lat": 51.6361,
     "lon": -8.5178,
     "yearBuilt": 1853,
+    "height": 30,
     "reach": [null, null, null, 16, 23],
     "lights": [null, null, null, 1, 2]
   },
@@ -44,6 +49,7 @@
     "lat": 52.2042,
     "lon": -6.1947,
     "yearBuilt": 1815,
+    "height": 34,
     "reach": [null, null, 14, 16, 19],
     "lights": [null, null, 1, 1, 2]
   },
@@ -52,6 +58,7 @@
     "lat": 55.3085,
     "lon": -5.8009,
     "yearBuilt": 1788,
+    "height": 40,
     "reach": [null, 12, 15, 18, 24],
     "lights": [null, 1, 1, 2, 2]
   },
@@ -60,6 +67,7 @@
     "lat": 58.6272,
     "lon": -5,
     "yearBuilt": 1828,
+    "height": 27,
     "reach": [null, null, 16, 19, 25],
     "lights": [null, null, 1, 2, 2]
   },
@@ -68,6 +76,7 @@
     "lat": 55.2644,
     "lon": -8.2307,
     "yearBuilt": 1832,
+    "height": 30,
     "reach": [null, null, 15, 17, 21],
     "lights": [null, null, 1, 1, 2]
   },
@@ -76,6 +85,7 @@
     "lat": 53.3047,
     "lon": -4.6947,
     "yearBuilt": 1809,
+    "height": 28,
     "reach": [null, null, 14, 16, 20],
     "lights": [null, null, 1, 2, 2]
   }

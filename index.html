@@ -19,14 +19,23 @@
     <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
     <script src="https://code.highcharts.com/maps/modules/marker-clusters.js"></script>
-    <!-- Sparklines last since they're for the table -->
-    <script src="https://code.highcharts.com/modules/sparkline.js"></script>
 
     <!-- Proj4js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.min.js"></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Add these before other styles -->
+    <style>
+        html,
+        body {
+            background-color: #f4f1ea !important;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -84,8 +93,9 @@
                         <th>Lighthouse</th>
                         <th>Location</th>
                         <th>Year Built</th>
-                        <th>Visibility Range</th>
-                        <th>Number of Lights</th>
+                        <th>Height (ft)</th>
+                        <th>Time-Series Data?</th>
+                        <th>Series Data Points</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -98,6 +108,29 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
     <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+
+    <!-- Add this right after loading Highcharts -->
+    <script>
+        // Global Highcharts configuration
+        Highcharts.setOptions({
+            tooltip: {
+                enabled: false
+            },
+            plotOptions: {
+                series: {
+                    states: {
+                        hover: {
+                            enabled: true
+                        },
+                        inactive: {
+                            opacity: 1
+                        }
+                    },
+                    stickyTracking: false  // Prevent sticky hover states
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
