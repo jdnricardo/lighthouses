@@ -1,0 +1,9 @@
+linters: linters_with_defaults(
+    line_length_linter(88),
+    indentation_linter(4L),
+    commented_code_linter = NULL
+  )
+exclusions: list(
+    "renv",
+    "tests/testthat"
+  )

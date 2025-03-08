@@ -1,0 +1,40 @@
+# Exclude files/directories
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    "build",
+    "dist"
+]
+
+# Same as Black
+line-length = 88
+indent-width = 4
+
+# Assume Python 3.8+
+target-version = "py38"
+
+[lint]
+# Enable recommended rules + isort
+select = ["E", "F", "I", "N", "B", "UP", "RUF"]
+ignore = []
+
+# Allow autofix behavior
+fixable = ["ALL"]
+unfixable = []
+
+# Ignore `E402` (import violations) in all `__init__.py` files
+[lint.per-file-ignores]
+"__init__.py" = ["E402"]
+
+[format]
+# Use double quotes for strings
+quote-style = "double"
+
+# Indent with spaces
+indent-style = "space"
+
+# Format docstrings to Google style
+docstring-code-format = true
+docstring-code-line-length = 88
