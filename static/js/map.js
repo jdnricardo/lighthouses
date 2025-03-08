@@ -117,7 +117,7 @@ function extractTimeSeriesData(lighthouse, property) {
 let hoverTimeout = null;
 let highlightLock = null;
 const HOVER_DELAY = 500; // milliseconds before triggering the interaction
-const LOCK_DURATION = 250; // milliseconds to lock the highlight after triggering
+const LOCK_DURATION = 300; // milliseconds to lock the highlight after triggering
 
 // Add a variable to store pending highlight
 let pendingHighlight = null;
@@ -422,7 +422,7 @@ async function initializeMap(data) {
                             }
 
                             hoverTimeout = setTimeout(() => {
-                                highlightTableRow(point);
+                                highlightTableRow(point, false);
                             }, HOVER_DELAY);
                         },
                         click: function (event) {
@@ -431,8 +431,8 @@ async function initializeMap(data) {
                             if (hoverTimeout) {
                                 clearTimeout(hoverTimeout);
                             }
-                            // Immediately highlight the row without delay
-                            highlightTableRow(point);
+                            // Immediately highlight the row without delay, passing true for isClick
+                            highlightTableRow(point, true);
                         },
                         mouseOut: function () {
                             const point = this;
@@ -828,9 +828,20 @@ style.textContent = `
 document.head.appendChild(style);
 
 // Add this helper function to handle the highlighting (reduces code duplication):
-function highlightTableRow(point) {
+function highlightTableRow(point, isClick = false) {
     const lighthouseName = point.name;
     clearAllHighlights();
+
+    // Store the point's screen coordinates if this was triggered by a click
+    let pointCoords;
+    if (isClick && point.graphic) {
+        const bbox = point.graphic.getBBox();
+        const chartPos = point.series.chart.containerPos;
+        pointCoords = {
+            x: chartPos.left + bbox.x + (bbox.width / 2),
+            y: chartPos.top + bbox.y + (bbox.height / 2)
+        };
+    }
 
     // Set point state to hover
     point.setState('hover');
@@ -857,12 +868,18 @@ function highlightTableRow(point) {
             // Scroll the row into view
             row.scrollIntoView({ behavior: 'smooth', block: 'end' });
 
-            // Move cursor after scrolling completes
+            // Move cursor based on event type
             setTimeout(() => {
-                const rect = row.getBoundingClientRect();
-                const targetX = rect.left + 20;
-                const targetY = rect.top + (rect.height / 2);
-                moveCursor(targetX, targetY);
+                if (isClick && pointCoords) {
+                    // Return cursor to map point if this was a click
+                    moveCursor(pointCoords.x, pointCoords.y);
+                } else {
+                    // Move to row for hover events
+                    const rect = row.getBoundingClientRect();
+                    const targetX = rect.left + 20;
+                    const targetY = rect.top + (rect.height / 2);
+                    moveCursor(targetX, targetY);
+                }
             }, 500);
 
             break;
