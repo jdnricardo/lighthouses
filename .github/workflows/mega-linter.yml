@@ -1,0 +1,53 @@
+---
+name: MegaLinter
+
+on:
+  # Trigger on push to main or pull requests
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  megalinter:
+    name: MegaLinter
+    runs-on: ubuntu-latest
+    steps:
+      # Check out repository
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Setup R environment
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.x'
+
+      # Install R packages
+      - name: Install R packages
+        run: |
+          install.packages(c('lintr', 'tidytable', 'jsonlite', 'readxl', 'data.table', 'rlang'))
+        shell: Rscript {0}
+
+      # MegaLinter
+      - name: MegaLinter
+        uses: oxsecurity/megalinter/flavors/documentation@v7
+        env:
+          VALIDATE_ALL_CODEBASE: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BRANCH: main
+          ENABLE_LINTERS: R_LINTR,JAVASCRIPT_ES,PYTHON_RUFF,YAML,MARKDOWN,JSON
+
+      # Upload MegaLinter artifacts
+      - name: Archive production artifacts
+        if: ${{ success() }} || ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: MegaLinter reports
+          path: |
+            megalinter-reports
+            mega-linter.log 

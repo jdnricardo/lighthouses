@@ -1,0 +1,38 @@
+# MegaLinter configuration
+---
+# Configuration
+APPLY_FIXES: all
+ENABLE_LINTERS:
+  - R_LINTR
+  - JAVASCRIPT_ES
+  - PYTHON_RUFF
+  - YAML
+  - MARKDOWN
+  - JSON
+
+# R specific configuration
+R_LINTR_ARGUMENTS: "--warn-only"
+R_LINTR_FILTER_REGEX_INCLUDE: "scripts/.*\\.R$"
+
+# JavaScript configuration
+JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.json
+JAVASCRIPT_ES_FILTER_REGEX_INCLUDE: "static/js/.*\\.js$"
+
+# Python configuration
+PYTHON_RUFF_CONFIG_FILE: pyproject.toml
+PYTHON_RUFF_FILTER_REGEX_INCLUDE: ".*\\.py$"
+
+# General settings
+SHOW_ELAPSED_TIME: true
+FILEIO_REPORTER: false
+PRINT_ALPACA: false
+PRINT_ALL_FILES: false
+
+# Disable specific error formats
+DISABLE_ERRORS_LINTERS:
+  - SPELL_CSPELL
+  - SPELL_MISSPELL
+
+# Output configuration
+OUTPUT_FORMAT: text
+OUTPUT_DETAIL_LEVEL: 2 

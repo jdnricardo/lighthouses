@@ -286,10 +286,18 @@ td[data-sparkline] .highcharts-menu-item {
 
 /* Adjust top menu */
 .ui.top.fixed.menu {
-    height: 40px;
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
+    /* Ensure menu stays on top */
+    z-index: 102;
+    margin: 0;
+    border-radius: 0;
+    height: 50px;
+    /* Fixed height for calculations */
+}
+
+/* Style the sidebar toggle button */
+.sidebar-toggle {
+    display: none;
+    /* Hidden by default for desktop */
 }
 
 /* Add new rules to ensure buttons are visible */
@@ -387,10 +395,9 @@ td[data-sparkline] .highcharts-series-hover,
 }
 
 .lighthouse-icon-cell svg {
-    width: 44px;
-    height: 44px;
-    color: rgba(112, 83, 53, 0.9);
-    /* Changed from rgb(244, 180, 0) to match map points */
+    width: 36px;
+    height: 36px;
+    color: #705335;
     display: inline-block;
     vertical-align: middle;
 }
@@ -532,8 +539,8 @@ body,
 }
 
 .highlight-row {
-    background-color: rgba(112, 83, 53, 0.15) !important;
-    transition: background-color 0.2s ease;
+    background-color: rgba(139, 69, 19, 0.1) !important;
+    transition: all 0.3s ease;
 }
 
 /* Add these rules to forcefully hide tooltips */
@@ -559,4 +566,817 @@ body,
 /* Remove any !important rules that might override hover states */
 .highcharts-series {
     pointer-events: auto;
+}
+
+@media (max-width: 768px) {
+    #table-container {
+        width: 100%;
+        height: calc(100vh - 60px);
+        overflow-y: auto;
+    }
+
+    #map-container {
+        width: 100%;
+        height: calc(100vh - 60px);
+    }
+
+    #table-container:not(:visible) thead,
+    #table-container:not(:visible) tbody {
+        display: none;
+    }
+
+    .ui.sidebar {
+        width: 100% !important;
+    }
+
+    /* Show sidebar toggle in mobile */
+    .sidebar-toggle {
+        display: block !important;
+    }
+
+    /* Adjust main content to account for fixed header */
+    .pusher {
+        padding-top: 50px;
+        /* Match menu height */
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+
+    #map-container {
+        height: calc(100vh - 50px);
+    }
+
+    #table-container {
+        height: calc(100vh - 50px);
+    }
+
+    /* Ensure sidebar appears above other content */
+    .ui.sidebar {
+        z-index: 103 !important;
+    }
+}
+
+@media (min-width: 769px) {
+
+    /* Remove any mobile-specific layout adjustments */
+    #map-container,
+    #table-container {
+        display: block !important;
+    }
+
+    /* Hide mobile-only elements */
+    .sidebar-toggle,
+    .ui.sidebar {
+        display: none !important;
+    }
+
+    .ui.top.fixed.menu {
+        display: none;
+        /* Hide menu bar in desktop mode */
+    }
+
+    .pusher {
+        padding-top: 0;
+        /* No padding needed in desktop */
+    }
+}
+
+/* Add or update these styles */
+.ui.celled.table {
+    /* Remove fixed table layout to allow content-based sizing */
+    table-layout: auto;
+    /* Ensure table takes full width of container */
+    width: 100%;
+    /* Allow word breaks for better mobile display */
+    word-break: break-word;
+}
+
+/* Style specific columns */
+#lighthouse-table th,
+#lighthouse-table td {
+    /* Add padding for better readability */
+    padding: 8px;
+    /* Allow text wrapping */
+    white-space: normal;
+    /* Vertical align content to top for wrapped text */
+    vertical-align: top;
+}
+
+/* Lighthouse name column */
+#lighthouse-table td:first-child,
+#lighthouse-table th:first-child {
+    /* Allow wrapping but try to maintain reasonable width */
+    min-width: 80px;
+    max-width: 150px;
+}
+
+/* Location column */
+#lighthouse-table td:nth-child(2),
+#lighthouse-table th:nth-child(2) {
+    /* Allow wrapping for coordinates */
+    min-width: 90px;
+    max-width: 140px;
+}
+
+/* Year Built column - keep narrow */
+#lighthouse-table td:nth-child(3),
+#lighthouse-table th:nth-child(3) {
+    min-width: 60px;
+    white-space: nowrap;
+}
+
+/* Height column - keep narrow */
+#lighthouse-table td:nth-child(4),
+#lighthouse-table th:nth-child(4) {
+    min-width: 50px;
+    white-space: nowrap;
+}
+
+/* Icon column - keep compact */
+#lighthouse-table td:nth-child(5),
+#lighthouse-table th:nth-child(5) {
+    width: 44px;
+    min-width: 44px;
+    padding: 4px;
+}
+
+/* Data points column - keep narrow */
+#lighthouse-table td:nth-child(6),
+#lighthouse-table th:nth-child(6) {
+    min-width: 50px;
+    white-space: nowrap;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+    .ui.celled.table {
+        /* Ensure table maintains its structure */
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    /* Keep rows horizontal */
+    .ui.celled.table tr {
+        display: table-row;
+    }
+
+    .ui.celled.table th,
+    .ui.celled.table td {
+        display: table-cell;
+        padding: 8px 4px;
+        font-size: 14px;
+        line-height: 1.3;
+        vertical-align: middle;
+        overflow-wrap: break-word;
+    }
+
+    /* Hide the Time-Series Data? column on mobile */
+    .ui.celled.table th:nth-child(5),
+    .ui.celled.table td:nth-child(5) {
+        display: none;
+    }
+
+    /* Adjust column widths */
+    .ui.celled.table th:first-child,
+    .ui.celled.table td:first-child {
+        width: 30%;
+        /* Name */
+    }
+
+    .ui.celled.table th:nth-child(2),
+    .ui.celled.table td:nth-child(2) {
+        width: 35%;
+        /* Location */
+    }
+
+    .ui.celled.table th:nth-child(3),
+    .ui.celled.table td:nth-child(3) {
+        width: 12%;
+        /* Year */
+        text-align: center;
+    }
+
+    .ui.celled.table th:nth-child(4),
+    .ui.celled.table td:nth-child(4) {
+        width: 12%;
+        /* Height */
+        text-align: center;
+    }
+
+    .ui.celled.table th:nth-child(6),
+    .ui.celled.table td:nth-child(6) {
+        width: 11%;
+        /* Data Points */
+        text-align: center;
+    }
+
+    /* Format location coordinates */
+    .ui.celled.table td:nth-child(2) {
+        font-size: 13px;
+    }
+}
+
+/* First, fix the scrolling and container issues */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll */
+}
+
+.pusher {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#map-container {
+    flex: 1;
+    min-height: 400px;
+    /* Ensure minimum height for map */
+}
+
+#table-container {
+    width: 100%;
+    overflow-x: auto;
+    /* Allow horizontal scroll within table container */
+}
+
+/* Table styles */
+.ui.celled.table {
+    margin: 0;
+    /* Remove margin to prevent double spacing */
+    border-radius: 0;
+    /* Remove border radius for cleaner look */
+    width: 100%;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .pusher {
+        height: 100vh;
+        overflow-y: auto;
+        /* Enable vertical scrolling */
+    }
+
+    #table-container {
+        height: calc(100vh - 60px);
+        /* Adjust for header height */
+        overflow-y: auto;
+    }
+
+    .ui.celled.table {
+        /* Ensure table columns have reasonable widths on mobile */
+        table-layout: fixed;
+    }
+
+    .ui.celled.table th,
+    .ui.celled.table td {
+        padding: 8px 4px;
+    }
+
+    /* Lighthouse name */
+    .ui.celled.table td:first-child,
+    .ui.celled.table th:first-child {
+        width: 25%;
+    }
+
+    /* Location */
+    .ui.celled.table td:nth-child(2),
+    .ui.celled.table th:nth-child(2) {
+        width: 25%;
+    }
+
+    /* Year Built */
+    .ui.celled.table td:nth-child(3),
+    .ui.celled.table th:nth-child(3) {
+        width: 15%;
+    }
+
+    /* Height */
+    .ui.celled.table td:nth-child(4),
+    .ui.celled.table th:nth-child(4) {
+        width: 12%;
+    }
+
+    /* Icon */
+    .ui.celled.table td:nth-child(5),
+    .ui.celled.table th:nth-child(5) {
+        width: 10%;
+    }
+
+    /* Data Points */
+    .ui.celled.table td:nth-child(6),
+    .ui.celled.table th:nth-child(6) {
+        width: 13%;
+    }
+
+    /* Enable text wrapping */
+    .ui.celled.table td,
+    .ui.celled.table th {
+        white-space: normal;
+        word-wrap: break-word;
+    }
+}
+
+/* Desktop-specific styles */
+@media (min-width: 769px) {
+    .pusher {
+        overflow: visible;
+        /* Allow normal flow on desktop */
+    }
+
+    #table-container {
+        height: auto;
+        overflow: visible;
+    }
+
+    .ui.celled.table {
+        table-layout: auto;
+        /* Allow content-based sizing on desktop */
+    }
+
+    /* Maintain minimum widths for desktop */
+    .ui.celled.table td:first-child {
+        min-width: 120px;
+        /* Lighthouse name */
+    }
+
+    .ui.celled.table td:nth-child(2) {
+        min-width: 140px;
+        /* Location */
+    }
+}
+
+/* Base table styles for desktop */
+.ui.celled.table {
+    width: 100%;
+    table-layout: auto;
+    margin: 0;
+}
+
+/* Desktop-specific styles */
+@media (min-width: 769px) {
+
+    .ui.celled.table th,
+    .ui.celled.table td {
+        display: table-cell;
+        padding: 8px;
+        vertical-align: middle;
+    }
+
+    /* Set minimum widths for desktop */
+    .ui.celled.table td:first-child {
+        min-width: 120px;
+        /* Name */
+    }
+
+    .ui.celled.table td:nth-child(2) {
+        min-width: 140px;
+        /* Location */
+    }
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .ui.celled.table {
+        /* Force table to be compact */
+        width: 100%;
+        table-layout: fixed;
+        font-size: 14px;
+    }
+
+    /* Hide less critical columns on mobile */
+    .ui.celled.table th:nth-child(2),
+    /* Location */
+    .ui.celled.table td:nth-child(2),
+    .ui.celled.table th:nth-child(5),
+    /* Time-Series Data? */
+    .ui.celled.table td:nth-child(5) {
+        display: none;
+    }
+
+    /* Adjust remaining columns */
+    .ui.celled.table th,
+    .ui.celled.table td {
+        padding: 8px 4px;
+        text-align: left;
+        vertical-align: middle;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    /* Column widths for mobile */
+    .ui.celled.table th:first-child,
+    .ui.celled.table td:first-child {
+        width: 40%;
+        /* Name */
+    }
+
+    .ui.celled.table th:nth-child(3),
+    .ui.celled.table td:nth-child(3) {
+        width: 25%;
+        /* Year */
+        text-align: center;
+    }
+
+    .ui.celled.table th:nth-child(4),
+    .ui.celled.table td:nth-child(4) {
+        width: 20%;
+        /* Height */
+        text-align: center;
+    }
+
+    .ui.celled.table th:nth-child(6),
+    .ui.celled.table td:nth-child(6) {
+        width: 15%;
+        /* Data Points */
+        text-align: center;
+    }
+
+    /* Simplify borders */
+    .ui.celled.table {
+        border: none;
+    }
+
+    .ui.celled.table tr {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    /* Make headers more compact */
+    .ui.celled.table thead th {
+        font-weight: bold;
+        padding: 8px 4px;
+        white-space: nowrap;
+    }
+}
+
+/* Expandable row styles */
+.expandable {
+    cursor: pointer;
+    user-select: none;
+}
+
+.expandable:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.expandable i.chevron {
+    transition: transform 0.2s ease;
+    margin-right: 8px;
+    color: #666;
+}
+
+.expandable i.chevron.down {
+    transform: rotate(90deg);
+}
+
+.coordinate-details {
+    background-color: #f9f9f9;
+}
+
+.coordinate-content {
+    padding: 12px 24px;
+    line-height: 1.4;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .location-preview {
+        display: none !important;
+    }
+
+    .coordinate-content {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+/* Desktop adjustments */
+@media (min-width: 769px) {
+    .location-preview {
+        color: #666;
+        font-size: 0.95em;
+    }
+}
+
+/* Base table styles */
+.ui.celled.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+/* Row styles */
+.lighthouse-row td {
+    padding: 12px 8px;
+    vertical-align: middle;
+}
+
+/* Expandable name styles */
+.expandable-name {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 0;
+}
+
+.expandable-name:hover {
+    color: #666;
+}
+
+.expandable-name i.chevron {
+    margin-right: 8px;
+    transition: transform 0.2s ease;
+}
+
+.expandable-name i.chevron.down {
+    transform: rotate(90deg);
+}
+
+/* Coordinate details styles */
+.coordinate-details {
+    background-color: #f9f9f9;
+}
+
+.coordinate-content {
+    padding: 12px 24px;
+    line-height: 1.4;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .ui.celled.table {
+        font-size: 14px;
+    }
+
+    /* Hide less important columns */
+    .location-cell,
+    .data-cell {
+        display: none;
+    }
+
+    /* Adjust remaining columns */
+    .lighthouse-row td {
+        padding: 8px 4px;
+    }
+
+    .year-cell,
+    .height-cell,
+    .points-cell {
+        text-align: center;
+    }
+
+    /* Expandable content */
+    .coordinate-content {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    /* Add spacing between rows */
+    .lighthouse-row {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+    .lighthouse-row td {
+        padding: 12px 8px;
+    }
+
+    .location-cell {
+        color: #666;
+    }
+
+    /* Column widths */
+    .ui.celled.table td:first-child {
+        width: 25%;
+    }
+
+    .ui.celled.table .location-cell {
+        width: 25%;
+    }
+
+    .ui.celled.table .year-cell {
+        width: 15%;
+    }
+
+    .ui.celled.table .height-cell {
+        width: 15%;
+    }
+
+    .ui.celled.table .data-cell {
+        width: 10%;
+    }
+
+    .ui.celled.table .points-cell {
+        width: 10%;
+    }
+}
+
+/* Lighthouse icon styling */
+.lighthouse-icon-cell {
+    text-align: center;
+}
+
+.lighthouse-icon-cell svg {
+    width: 36px;
+    height: 36px;
+    color: #705335;
+}
+
+/* Ensure icon cell doesn't get too wide */
+.ui.celled.table .data-cell {
+    width: 44px;
+    min-width: 44px;
+    padding: 4px;
+}
+
+@media (max-width: 768px) {
+    .lighthouse-icon-cell svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Desktop column widths */
+@media (min-width: 769px) {
+    .ui.celled.table td:first-child {
+        width: 35%;
+        /* Name - increased since we removed location */
+    }
+
+    .ui.celled.table .year-cell {
+        width: 20%;
+    }
+
+    .ui.celled.table .height-cell {
+        width: 20%;
+    }
+
+    .ui.celled.table .data-cell {
+        width: 15%;
+        min-width: 50px;
+        /* Ensure enough space for larger icon */
+    }
+
+    .ui.celled.table .points-cell {
+        width: 10%;
+    }
+}
+
+/* Table row hover and highlight styles */
+.lighthouse-row {
+    transition: background-color 0.1s ease;
+}
+
+.lighthouse-row:hover,
+.lighthouse-row.highlight-row {
+    background-color: rgba(139, 69, 19, 0.1) !important;
+    /* #8B4513 with opacity */
+}
+
+/* Style for the expanded row when parent is hovered/highlighted */
+.lighthouse-row:hover+.coordinate-details,
+.lighthouse-row.highlight-row+.coordinate-details {
+    background-color: rgba(139, 69, 19, 0.05) !important;
+}
+
+/* Keep expanded row styling when it's visible */
+.coordinate-details[style*="display: table-row"] {
+    background-color: rgba(139, 69, 19, 0.05);
+}
+
+/* Table styling */
+.ui.celled.table {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+}
+
+/* Remove ALL cell borders */
+.ui.celled.table tr td,
+.ui.celled.table tr th {
+    border: none !important;
+}
+
+/* Banded rows - only target lighthouse rows */
+.lighthouse-row:nth-child(4n + 1) {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Header styling */
+.ui.celled.table thead th {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    padding: 12px 8px;
+}
+
+/* Style expanded coordinate details */
+.coordinate-details {
+    background-color: #f8f8f8;
+}
+
+.coordinate-details td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Maintain hover effects */
+.lighthouse-row:hover,
+.lighthouse-row.highlight-row {
+    background-color: rgba(139, 69, 19, 0.1) !important;
+}
+
+/* Expanded row styling when parent is hovered */
+.lighthouse-row:hover+.coordinate-details[style*="display: table-row"],
+.lighthouse-row.highlight-row+.coordinate-details[style*="display: table-row"] {
+    background-color: rgba(139, 69, 19, 0.05) !important;
+}
+
+/* Table container sizing */
+#table-container {
+    max-width: 800px;
+    /* Reduce overall table width */
+    margin: 0 auto;
+    /* Center the table if smaller than container */
+}
+
+/* Table styling */
+.ui.celled.table {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    width: 100%;
+    table-layout: fixed;
+    /* Enable fixed column widths */
+}
+
+/* Column width adjustments */
+.ui.celled.table th,
+.ui.celled.table td {
+    border: none !important;
+    padding: 8px;
+}
+
+/* Specific column widths */
+.ui.celled.table th:first-child,
+.ui.celled.table td:first-child {
+    width: 35%;
+    /* Name column */
+}
+
+.ui.celled.table th:nth-child(2),
+.ui.celled.table td:nth-child(2) {
+    width: 15%;
+    /* Year column */
+    text-align: center;
+}
+
+.ui.celled.table th:nth-child(3),
+.ui.celled.table td:nth-child(3) {
+    width: 12%;
+    /* Height column */
+    text-align: center;
+}
+
+.ui.celled.table th:nth-child(4),
+.ui.celled.table td:nth-child(4) {
+    width: 25%;
+    /* Time Series column */
+    text-align: center;
+}
+
+.ui.celled.table th:nth-child(5),
+.ui.celled.table td:nth-child(5) {
+    width: 13%;
+    /* Points column */
+    text-align: center;
+}
+
+/* Rest of your existing styles */
+.lighthouse-row:nth-child(4n + 1) {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.ui.celled.table thead th {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    padding: 12px 8px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    #table-container {
+        max-width: 100%;
+    }
+
+    .ui.celled.table th,
+    .ui.celled.table td {
+        padding: 6px 4px;
+    }
 }

@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "proj4": "^2.15.0"
-  }
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0"
+  },
+  "scripts": {
+    "lint": "/usr/bin/node node_modules/eslint/bin/eslint.js static/js/",
+    "lint:fix": "/usr/bin/node node_modules/eslint/bin/eslint.js static/js/ --fix"
+  },
+  "type": "module",
+  "name": "lighthouses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

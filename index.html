@@ -44,68 +44,42 @@
 </head>
 
 <body>
-    <!-- Add a toggle button in the top right -->
+    <!-- Mobile menu bar -->
     <div class="ui top fixed menu">
         <div class="right menu">
-            <a class="item" id="sidebar-toggle">
+            <a class="item sidebar-toggle">
                 <i class="sidebar icon"></i>
                 Menu
             </a>
         </div>
     </div>
 
-    <div class="ui sidebar inverted vertical menu">
-        <div class="item">
-            <h2 class="ui header inverted">UK Lighthouses</h2>
+    <!-- Sidebar and main content -->
+    <div class="ui sidebar-container">
+        <div class="ui left vertical sidebar menu">
+            <a class="item" id="map-view-item">Map View</a>
+            <a class="item" id="table-view-item">Data Table</a>
         </div>
-        <a class="item active">
-            <i class="map icon"></i>
-            Map View
-        </a>
-        <a class="item">
-            <i class="table icon"></i>
-            Data Table
-        </a>
-        <div class="item">
-            <div class="ui inverted accordion">
-                <div class="title">
-                    <i class="dropdown icon"></i>
-                    Filters
-                </div>
-                <div class="content">
-                    <div class="ui form inverted">
-                        <div class="field">
-                            <label>Region</label>
-                            <select class="ui dropdown">
-                                <option value="">All Regions</option>
-                                <option value="scotland">Scotland</option>
-                                <option value="england">England</option>
-                                <option value="wales">Wales</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="pusher">
-        <div class="ui container">
-            <div id="map-container"></div>
-            <table id="lighthouse-table">
-                <thead>
-                    <tr>
-                        <th>Lighthouse</th>
-                        <th>Location</th>
-                        <th>Year Built</th>
-                        <th>Height (ft)</th>
-                        <th>Time-Series Data?</th>
-                        <th>Series Data Points</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+        <div class="pusher">
+            <div id="map-container">
+                <!-- Map content -->
+            </div>
+            <div id="table-container">
+                <table id="lighthouse-table" class="ui celled table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Year</th>
+                            <th>Height</th>
+                            <th>Time Series?</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 
