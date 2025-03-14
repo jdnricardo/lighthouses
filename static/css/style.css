@@ -17,17 +17,18 @@ body {
 }
 
 #map-container {
-    min-height: 500px;
-    height: calc(100vh - 400px);
-    max-height: 67vh;
+    min-height: 600px;
+    /* Increased from 500px */
+    height: calc(100vh - 200px);
+    /* Increased space for map */
+    max-height: 80vh;
+    /* Increased from 67vh */
     width: 100%;
     max-width: 100%;
     margin: 20px 0;
     position: relative;
     background-color: transparent !important;
-    /* Force sepia background */
     box-shadow: none !important;
-    /* Remove any shadow that might show white */
 }
 
 /* Ensure Highcharts container inherits background */
@@ -1301,9 +1302,12 @@ body {
 /* Table container sizing */
 #table-container {
     max-width: 800px;
-    /* Reduce overall table width */
     margin: 0 auto;
-    /* Center the table if smaller than container */
+    max-height: calc(100vh - 700px);
+    /* Limit table height */
+    overflow-y: auto;
+    /* Enable scrolling for table */
+    padding: 0 20px;
 }
 
 /* Table styling */

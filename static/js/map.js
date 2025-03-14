@@ -427,11 +427,28 @@ async function initializeMap(data) {
                         },
                         click: function (event) {
                             const point = this;
+
                             // Clear any existing timeouts to prevent hover from interfering
                             if (hoverTimeout) {
                                 clearTimeout(hoverTimeout);
+                                hoverTimeout = null;
                             }
-                            // Immediately highlight the row and scroll into view, passing true for isClick
+
+                            // Clear any existing highlight lock
+                            if (highlightLock) {
+                                clearTimeout(highlightLock);
+                                highlightLock = null;
+                            }
+
+                            // Set a new highlight lock with a longer duration for clicks
+                            highlightLock = setTimeout(() => {
+                                highlightLock = null;
+                            }, 5000); // 5 second lock for clicks
+
+                            // Store the current point as the locked one
+                            setHighlightLock.currentName = point.name;
+
+                            // Immediately highlight the row and scroll into view
                             highlightTableRow(point, true);
                         },
                         mouseOut: function () {
@@ -456,7 +473,6 @@ async function initializeMap(data) {
                                 clearAllHighlights();
                             } else {
                                 // If there is a lock, ensure this point stays highlighted if it's the locked one
-                                const point = this;
                                 if (setHighlightLock.currentName === point.name) {
                                     point.setState('hover');
                                     if (point.dataLabel) {
@@ -827,10 +843,14 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// Update the highlightTableRow function to handle scroll behavior separately
+// Update the highlightTableRow function to handle state persistence better
 function highlightTableRow(point, isClick = false) {
     const lighthouseName = point.name;
-    clearAllHighlights();
+
+    // Only clear highlights if this isn't a click event or if we're not locked
+    if (!isClick || !highlightLock) {
+        clearAllHighlights();
+    }
 
     // Store the point's screen coordinates if this was triggered by a click
     let pointCoords;
@@ -863,7 +883,10 @@ function highlightTableRow(point, isClick = false) {
             row.style.borderLeft = '2px solid #8B4513';
             row.style.borderRight = '2px solid #8B4513';
 
-            setHighlightLock(lighthouseName);
+            // Only set highlight lock for click events
+            if (isClick) {
+                setHighlightLock(lighthouseName);
+            }
 
             // Only scroll into view if this was triggered by a click
             if (isClick) {
