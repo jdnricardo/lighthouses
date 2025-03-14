@@ -116,7 +116,7 @@ function extractTimeSeriesData(lighthouse, property) {
 // Add or update these variables at the top of your file
 let hoverTimeout = null;
 let highlightLock = null;
-const HOVER_DELAY = 500; // milliseconds before triggering the interaction
+const HOVER_DELAY = 200; // Reduced from 500ms to 200ms for faster hover response
 const LOCK_DURATION = 300; // milliseconds to lock the highlight after triggering
 
 // Add a variable to store pending highlight
@@ -431,7 +431,7 @@ async function initializeMap(data) {
                             if (hoverTimeout) {
                                 clearTimeout(hoverTimeout);
                             }
-                            // Immediately highlight the row without delay, passing true for isClick
+                            // Immediately highlight the row and scroll into view, passing true for isClick
                             highlightTableRow(point, true);
                         },
                         mouseOut: function () {
@@ -827,7 +827,7 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// Add this helper function to handle the highlighting (reduces code duplication):
+// Update the highlightTableRow function to handle scroll behavior separately
 function highlightTableRow(point, isClick = false) {
     const lighthouseName = point.name;
     clearAllHighlights();
@@ -865,8 +865,10 @@ function highlightTableRow(point, isClick = false) {
 
             setHighlightLock(lighthouseName);
 
-            // Scroll the row into view
-            row.scrollIntoView({ behavior: 'smooth', block: 'end' });
+            // Only scroll into view if this was triggered by a click
+            if (isClick) {
+                row.scrollIntoView({ behavior: 'smooth', block: 'end' });
+            }
 
             // Move cursor based on event type
             setTimeout(() => {
