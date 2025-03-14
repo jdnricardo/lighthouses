@@ -448,7 +448,7 @@ async function initializeMap(data) {
                             // Store the current point as the locked one
                             setHighlightLock.currentName = point.name;
 
-                            // Immediately highlight the row and scroll into view
+                            // Highlight the row and scroll it into view
                             highlightTableRow(point, true);
                         },
                         mouseOut: function () {
@@ -843,24 +843,13 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// Update the highlightTableRow function to handle state persistence better
+// Update the highlightTableRow function to focus on scrolling behavior
 function highlightTableRow(point, isClick = false) {
     const lighthouseName = point.name;
 
     // Only clear highlights if this isn't a click event or if we're not locked
     if (!isClick || !highlightLock) {
         clearAllHighlights();
-    }
-
-    // Store the point's screen coordinates if this was triggered by a click
-    let pointCoords;
-    if (isClick && point.graphic) {
-        const bbox = point.graphic.getBBox();
-        const chartPos = point.series.chart.containerPos;
-        pointCoords = {
-            x: chartPos.left + bbox.x + (bbox.width / 2),
-            y: chartPos.top + bbox.y + (bbox.height / 2)
-        };
     }
 
     // Set point state to hover
@@ -883,29 +872,16 @@ function highlightTableRow(point, isClick = false) {
             row.style.borderLeft = '2px solid #8B4513';
             row.style.borderRight = '2px solid #8B4513';
 
-            // Only set highlight lock for click events
+            // Only set highlight lock and scroll for click events
             if (isClick) {
                 setHighlightLock(lighthouseName);
-            }
 
-            // Only scroll into view if this was triggered by a click
-            if (isClick) {
-                row.scrollIntoView({ behavior: 'smooth', block: 'end' });
+                // Scroll the row into view with a smooth animation
+                row.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'  // Center the row in the viewport
+                });
             }
-
-            // Move cursor based on event type
-            setTimeout(() => {
-                if (isClick && pointCoords) {
-                    // Return cursor to map point if this was a click
-                    moveCursor(pointCoords.x, pointCoords.y);
-                } else {
-                    // Move to row for hover events
-                    const rect = row.getBoundingClientRect();
-                    const targetX = rect.left + 20;
-                    const targetY = rect.top + (rect.height / 2);
-                    moveCursor(targetX, targetY);
-                }
-            }, 500);
 
             break;
         }
