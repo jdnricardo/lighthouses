@@ -17,27 +17,22 @@ body {
 }
 
 #map-container {
+    /* Remove conflicting height calculations */
     min-height: 750px;
-    /* Increased from 500px */
-    height: calc(100vh - 200px);
-    /* Increased space for map */
-    max-height: 80vh;
-    /* Increased from 67vh */
+    height: 750px;
+    /* Set a fixed height instead of calc */
     width: 100%;
-    max-width: 100%;
     margin: 20px 0;
     position: relative;
     background-color: transparent !important;
     box-shadow: none !important;
 }
 
-/* Ensure Highcharts container inherits background */
-.highcharts-container {
-    background-color: transparent !important;
-}
-
-/* Style the root SVG element */
+/* Ensure Highcharts container and root fill the space */
+.highcharts-container,
 .highcharts-root {
+    width: 100% !important;
+    height: 100% !important;
     background-color: transparent !important;
 }
 
@@ -1301,12 +1296,10 @@ body {
 
 /* Table container sizing */
 #table-container {
-    max-width: 800px;
-    margin: 0 auto;
-    max-height: calc(100vh - 700px);
-    /* Limit table height */
+    margin-top: 20px;
+    max-height: calc(100vh - 800px);
+    /* Account for map height + margins */
     overflow-y: auto;
-    /* Enable scrolling for table */
     padding: 0 20px;
 }
 
