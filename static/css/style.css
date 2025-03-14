@@ -17,7 +17,7 @@ body {
 }
 
 #map-container {
-    min-height: 600px;
+    min-height: 750px;
     /* Increased from 500px */
     height: calc(100vh - 200px);
     /* Increased space for map */

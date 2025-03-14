@@ -116,7 +116,7 @@ function extractTimeSeriesData(lighthouse, property) {
 // Add or update these variables at the top of your file
 let hoverTimeout = null;
 let highlightLock = null;
-const HOVER_DELAY = 200; // Reduced from 500ms to 200ms for faster hover response
+const HOVER_DELAY = 150;
 const LOCK_DURATION = 300; // milliseconds to lock the highlight after triggering
 
 // Add a variable to store pending highlight
